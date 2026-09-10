@@ -1,8 +1,8 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "status set 2026-09-10",
-    "digest": "sha256:47e75654b417ec2bd496faf50123dec70b076b2dcbba0f44868fca82e5d469b2"
+    "name": "status set 2026-09-10b — conformance 0.8.10",
+    "digest": "sha256:2c527a57c6c5499100e178f50cda07f5e0de410fb4976ee593edfa3745f600f6"
   },
   "records": [
     {
@@ -19,8 +19,8 @@
     },
     {
       "artifact": "conformance",
-      "version": "0.8.9",
-      "path": "conformance/0.8.9.json",
+      "version": "0.8.10",
+      "path": "conformance/0.8.10.json",
       "kind": "npm"
     },
     {

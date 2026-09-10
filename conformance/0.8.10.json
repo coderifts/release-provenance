@@ -1,0 +1,404 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "conformance",
+  "name": "@coderifts/conformance",
+  "kind": "npm",
+  "version": "0.8.10",
+  "registry": {
+    "git_head": "12ab69217155bb297d981680857dfbd2965ebd45",
+    "integrity": "sha512-Qk+B5Zkx11MBUehRvE3dO3524GWMwksCvktzHmWnNDJrTPDzbCrFVBRhhHTRJow1oNa6sbC5GYOJk6IugmFU0A==",
+    "shasum": "047d4836d54eb93b58bd59132efaa39579e87f10",
+    "file_count": 73,
+    "unpacked_size": 707295,
+    "tarball": "https://registry.npmjs.org/@coderifts/conformance/-/conformance-0.8.10.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEQCIFhD9JyqlZ719InDjSe37hg9kmW+DzBmZ9BvbaMemFwrAiB+vdu72rGnqYAi6Dg71/Lg24oWRsoZY6d0LcL12JvYKA=="
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEQCIDSnvehIWwPOfxwLfkMg/KXAh9GNzfHZh1dn452l6KPUAiAh2ZSHIRq2QK6yukTieSeZ+xowFqMlwUTEr6+9PsdCVw=="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/conformance.git",
+    "tag": "conformance-v0.8.10",
+    "tag_object": "12ab69217155bb297d981680857dfbd2965ebd45",
+    "peeled_commit": "12ab69217155bb297d981680857dfbd2965ebd45",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:26b97a73e9e48434cfe5157adce859869a243677d61ae469ce216f1a6d20cc41",
+    "tarball_bytes": 195868,
+    "file_count": 73,
+    "files": [
+      {
+        "path": "bin/coderifts-conformance.js",
+        "sha256": "sha256:51afa8b0d0674b9b9b6b1597fa441b3893f82255a3205be222d16999004d4c0e",
+        "bytes": 12424
+      },
+      {
+        "path": "cases.v1.json",
+        "sha256": "sha256:a8cbb0e112b1e74899d7fbb39077add26ef07f2b1f0f68c210106beeab3fe4d9",
+        "bytes": 13882
+      },
+      {
+        "path": "CHANGELOG.md",
+        "sha256": "sha256:57e35cc3f143deb8c61890770407253a275dff80629103a1201103ffe18a57b6",
+        "bytes": 23675
+      },
+      {
+        "path": "CONTRACT.md",
+        "sha256": "sha256:56c26a28adf1d97de01b74a68c58d5cb4768fadf92908a2a6350923834047acb",
+        "bytes": 6359
+      },
+      {
+        "path": "fixtures/adversarial.v1.json",
+        "sha256": "sha256:cdab9a2e7cebe59d1f96e2c31e9b5facac43fc61b13417b47e387f90e9f57774",
+        "bytes": 15992
+      },
+      {
+        "path": "fixtures/attack-matrix.v1.json",
+        "sha256": "sha256:750e604d757e8340236ec6293cef8b8ec4ea992b7a47498018f3b2e472127a91",
+        "bytes": 9611
+      },
+      {
+        "path": "fixtures/model-acceptance.v1.json",
+        "sha256": "sha256:235105f9d0ae3fbf62185d7d8a1af6af8e3d5c0c518bde1fa8e4e16c4db3ac80",
+        "bytes": 2128
+      },
+      {
+        "path": "fixtures/recorded/bypass-attempt/pin.json",
+        "sha256": "sha256:6d7df76e0cf3d3e3b04dd05c0c534d02b86710a14a4a8f5fe813a4187ce60060",
+        "bytes": 2146
+      },
+      {
+        "path": "fixtures/recorded/bypass-attempt/pr4-merge-refusal.json",
+        "sha256": "sha256:8408d3d4dfe1179efc56111844ac2f90688a1f44a29518559c750bf149927c3a",
+        "bytes": 230
+      },
+      {
+        "path": "fixtures/recorded/bypass-attempt/pr5-merge-refusal.json",
+        "sha256": "sha256:1e850861ed0830091a00d0fa4619ee482886d94a3491041df312a6032f06d1df",
+        "bytes": 231
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/executor-keys.json",
+        "sha256": "sha256:784c1d5c80cb728b36c07dcc89cf15bdbcd0f97f9ef7aeb93fe1b1cd12c16bee",
+        "bytes": 568
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/negative-readback.json",
+        "sha256": "sha256:29b2ad3f6fcc4811f5809b32b1294e0016be67e3cd6fdf583ac61752c1d1d238",
+        "bytes": 228
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/negative-transcript.json",
+        "sha256": "sha256:88f93b4fb1ec9e83c017d7ce711971a980ff722df9e74d82509e15d12ebde030",
+        "bytes": 14017
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/pin.json",
+        "sha256": "sha256:28f40fbb6879168d20d62017c309d4e7798eb83bc11f98abc42483717b6c54a2",
+        "bytes": 4270
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/readback.json",
+        "sha256": "sha256:d1339a3d70363b48f7d9953846a74937a3f1f86501efd48ce2b0eddab4c56799",
+        "bytes": 1432
+      },
+      {
+        "path": "fixtures/recorded/end-to-end/transcript.json",
+        "sha256": "sha256:41f6af24054102081b0b7e402ed03d5d8a85aa8f86026f99e2c9e9f9eb9ebdff",
+        "bytes": 25005
+      },
+      {
+        "path": "fixtures/recorded/prove-transcript/executor-keys.json",
+        "sha256": "sha256:107faee16f60466e106117a6340b119178d5b5ac672c25fc363d230e5efc5883",
+        "bytes": 568
+      },
+      {
+        "path": "fixtures/recorded/prove-transcript/pin.json",
+        "sha256": "sha256:010ec89c182ee11f153d413c0b21eb9d82daddaa2c3a4351b008dc4adef80c90",
+        "bytes": 1524
+      },
+      {
+        "path": "fixtures/recorded/prove-transcript/transcript.json",
+        "sha256": "sha256:ad4639d97982cbfb40a58a5f7be2202730aa7fcf878e4dea1f17f4d18e51d4fd",
+        "bytes": 8552
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/capture.json",
+        "sha256": "sha256:bc2a0c46792965a6cec85807e9ecf7da91da3dbe44d4c8ff30b3c4bf8f0be2d7",
+        "bytes": 1120
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/pin.json",
+        "sha256": "sha256:a878add36eda3d66263a32a2e547273a3d0475a2119e77f00ebcdea1f156c070",
+        "bytes": 2359
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/pr-4-checks.json",
+        "sha256": "sha256:4943df412fe2fa129a4724e3902be5f419e98f500d1244f16c3828a381feb386",
+        "bytes": 7924
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/pr-4.json",
+        "sha256": "sha256:af1de295ded79c15530fe7b4db7458ce110f49ecea1529e1c95afbf973db65ee",
+        "bytes": 15076
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/pr-5.json",
+        "sha256": "sha256:76de1a65122f4ba0b40446cb4d3488e48084f4bcc1ef94cfc2b96742df0bda53",
+        "bytes": 1110
+      },
+      {
+        "path": "fixtures/recorded/provider-enforced/ruleset.json",
+        "sha256": "sha256:363ae6b995b7cfa9be6c290f63a3699d06a1fec32fc892014ceb0056b39cd8af",
+        "bytes": 788
+      },
+      {
+        "path": "fixtures/recorded/receipt-crypto/pin.json",
+        "sha256": "sha256:aad8283a6385e40bfe53ec4e91effea84b25c0449bc40984d4dfdf25616ace86",
+        "bytes": 1078
+      },
+      {
+        "path": "fixtures/recorded/receipt-crypto/vectors.json",
+        "sha256": "sha256:b2ac4482763ad3c4d743e0073f418740f08083f37b397d6074fea3a4ccf93532",
+        "bytes": 18570
+      },
+      {
+        "path": "fixtures/vulnerable-bearer-executor.v1.json",
+        "sha256": "sha256:0af85235b183f1e5c6331604161f78cb9db2049c37b41fe670debca2f12cf7ae",
+        "bytes": 4571
+      },
+      {
+        "path": "lib/assurance-profiles.js",
+        "sha256": "sha256:7b27d9e5310654d5547fec3947591283539d7795b6ac0a003be74b7bee853358",
+        "bytes": 42532
+      },
+      {
+        "path": "lib/attack-matrix-runner.js",
+        "sha256": "sha256:ccd7e5b1a493e2e243e8f66556694ac1614f47309e395107e4fb052f1802d112",
+        "bytes": 16745
+      },
+      {
+        "path": "lib/evidence-envelope.js",
+        "sha256": "sha256:074cde4533e5297bdfcb9e78ee638fcd55f0388b30a990460c21484744b7168d",
+        "bytes": 8056
+      },
+      {
+        "path": "lib/load-cases.js",
+        "sha256": "sha256:cf235f957847f009fa9acdb22a224e9caa4f2c5328d8f4de3ecb52c4d3a0eddb",
+        "bytes": 1083
+      },
+      {
+        "path": "lib/model-acceptance.js",
+        "sha256": "sha256:a707f08109287fe4fe1c1c6ab98b9031ab3b76912037073e2b6725c80f43633f",
+        "bytes": 15772
+      },
+      {
+        "path": "lib/recorded-bypass-attempt.js",
+        "sha256": "sha256:29a65e36cb249db99e3833e91744eb4608bfc7b8826c8c7955195e0a7e7b23e9",
+        "bytes": 9915
+      },
+      {
+        "path": "lib/recorded-contract-e2e.js",
+        "sha256": "sha256:9dd30af54aa0fc683e98e5596398796f7918a397baa37c4ed1a3fc7ef47dffde",
+        "bytes": 62511
+      },
+      {
+        "path": "lib/recorded-prove-profiles.js",
+        "sha256": "sha256:c084b44e4eb63366f01b09e64ae18619e84c7cb20702438da70f612e7785df16",
+        "bytes": 16728
+      },
+      {
+        "path": "lib/recorded-provider-enforced.js",
+        "sha256": "sha256:c03e72ac3e53a63731dd2339f3bf36ce81d6e717258a5cf4b33554c52e13f0aa",
+        "bytes": 19845
+      },
+      {
+        "path": "lib/recorded-receipt-crypto.js",
+        "sha256": "sha256:eb72e2db965314b672f62b5f5c88d483086c5702131ae108c9d16bc7f7324982",
+        "bytes": 13742
+      },
+      {
+        "path": "lib/score.js",
+        "sha256": "sha256:d92ddafc3f8d97a33c4835948272dd9e5d9d2f614483ce5fce442d3ac32ddb37",
+        "bytes": 10885
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/arity.js",
+        "sha256": "sha256:721fcac58b960b5e2aa1af91edb6cfc87ebe828a6da73879967ef79a1ca474e8",
+        "bytes": 1849
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/evidence-root.js",
+        "sha256": "sha256:4d5476fc44bbfc2a847feeb313a1c6c08ef7fd832a2348ef3c244bd8d3f03fcd",
+        "bytes": 8559
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/keys/coderifts-keys.json",
+        "sha256": "sha256:bfe0c898cda3c3a4c8141726d0adb4cdb7eb9762de6264e430eff6469b90422e",
+        "bytes": 221
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/VENDOR.sha256",
+        "sha256": "sha256:51d325b5a72ca1192046717d225d2b9666ac2ec3519e902926007c2ee2e4e68b",
+        "bytes": 3810
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verified-execution-binding.js",
+        "sha256": "sha256:9d0259e916f2bcd32029744c3e9ec81448bcefa46e6ad3f054c8a650dc0482b7",
+        "bytes": 29188
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verify-attest.js",
+        "sha256": "sha256:035105de0f163d112038624eb2bf93cee059a565216fd8b03489964f6b0b2fa8",
+        "bytes": 19639
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verify-evidence.js",
+        "sha256": "sha256:98cd9b989a25095e0442f91f68a1adecd6e6a2a5b05902bf2580b8cba973c5e2",
+        "bytes": 19430
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verify-grant.js",
+        "sha256": "sha256:4a0ad5bd7bb8282e086bea99dcaf8ca278370d80019c5681d2942bf11bc87504",
+        "bytes": 26414
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verify-prove-transcript.js",
+        "sha256": "sha256:3bb17bd4f16d5ee3cf3fbb754b4df9aa570a615ca94ff2a97b751c4fabd3bd0d",
+        "bytes": 2931
+      },
+      {
+        "path": "lib/vendor/receipt-verifier/verify.js",
+        "sha256": "sha256:348d3f851cd79bf63298b51da422d11be980820576ab0bf0a2990b9f007d6249",
+        "bytes": 20636
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:86c147280255cf398d0b59d8bd9e582c8cdb3dfbfda3820e762920bb28a45f2f",
+        "bytes": 2123
+      },
+      {
+        "path": "proof/authorized-payload.yaml",
+        "sha256": "sha256:3475e74d2656e43b32526af7e90ddab7fef292cd38cbbf4f8365c57d50ffd55d",
+        "bytes": 535
+      },
+      {
+        "path": "proof/before-payload.yaml",
+        "sha256": "sha256:38cd72107163c6da2bc9c100942e29ba5a92b3e0806a35d07e7b0d33d7cbe0fa",
+        "bytes": 522
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/executor-keys.json",
+        "sha256": "sha256:4c856f52a396f6689da5e9437ba9aaee3146210e20255ac169cdd4f9f98bd620",
+        "bytes": 568
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/negative-readback.json",
+        "sha256": "sha256:e8afc2c47bac609170d3e20491937167e92b7999ef3a5cf85d570abc55872176",
+        "bytes": 228
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/negative-transcript.json",
+        "sha256": "sha256:219a98c238478b28ec3c355935e83b3bbad5d9629bf30fd2319e35719921e0b5",
+        "bytes": 14016
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/pin.json",
+        "sha256": "sha256:743ed94869e12c7bb857753fae5a42adb16552e9b68fe8feff2e2165b79fc32f",
+        "bytes": 4215
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/readback.json",
+        "sha256": "sha256:180c8ddcd346575ffa7938993b419ccf6d8e2dda03893aa3d2713214cbe691c6",
+        "bytes": 1432
+      },
+      {
+        "path": "proof/negatives/tampered-attestation/transcript.json",
+        "sha256": "sha256:1ca669d9e47c49bc8095ff8b6c46d2ac05150035230e75e7c04c54c3d501b57e",
+        "bytes": 24030
+      },
+      {
+        "path": "proof/negatives/two-grant/executor-keys.json",
+        "sha256": "sha256:694e34181042ecff3aeafbdfc258666047d7eb742f314b265fb79ba2f61b2ef6",
+        "bytes": 568
+      },
+      {
+        "path": "proof/negatives/two-grant/negative-readback.json",
+        "sha256": "sha256:05cfe8ca9f0efb8154cd22622debb13f433e515cc98190190ae829cd9ef57962",
+        "bytes": 228
+      },
+      {
+        "path": "proof/negatives/two-grant/negative-transcript.json",
+        "sha256": "sha256:38a4150a62752c7567b5718b7de41f07e0e440e116341d0863eef109ff6067cc",
+        "bytes": 14016
+      },
+      {
+        "path": "proof/negatives/two-grant/pin.json",
+        "sha256": "sha256:e963e3e93c4559315fa8726ab2af1a234250cc4809a973fb91a559955884f0c6",
+        "bytes": 4215
+      },
+      {
+        "path": "proof/negatives/two-grant/readback.json",
+        "sha256": "sha256:2ed2454b2bd961f33875eb0bd9ec81927d45b5dec12aa8eb441250a35b126478",
+        "bytes": 1372
+      },
+      {
+        "path": "proof/negatives/two-grant/transcript.json",
+        "sha256": "sha256:75f1b6a072df7b107a7c9f2411af540fb639908af352e64e7ba359d018b06fe6",
+        "bytes": 23508
+      },
+      {
+        "path": "proof/README.md",
+        "sha256": "sha256:d70aa6cde3af6d6690b66a70d0f8037de18cc564d4ed923ad1d5ace4410f551d",
+        "bytes": 3038
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:05bf42d7613689478fa582a5024acef8c6c9bff7359f2c3dd1f161eafeb93518",
+        "bytes": 25720
+      },
+      {
+        "path": "subjects/agent-guard-decide.js",
+        "sha256": "sha256:d551621f9d1e5f4cd2324bd2c3fb6422957278f838b8d39653f676b27fd89f2f",
+        "bytes": 4022
+      },
+      {
+        "path": "subjects/branch-on-decision.js",
+        "sha256": "sha256:4dc6d07b805039dd2aae06db61958640125c813e816ba21e364b8d31d5068efb",
+        "bytes": 1113
+      },
+      {
+        "path": "subjects/data-plane.js",
+        "sha256": "sha256:17e8315d16ee70c859d8babd52411c43686819110fca1900ae90561babd32da3",
+        "bytes": 23799
+      },
+      {
+        "path": "subjects/reference.js",
+        "sha256": "sha256:88ae2889a94cc996365d014903f8fdc06c9200af01716e8c3ef3e1d40a539a4a",
+        "bytes": 2947
+      },
+      {
+        "path": "subjects/sdk-read-decision.js",
+        "sha256": "sha256:c2930135f32306fc1557893c6a639189d15807a22c91ceda7359fb7b28e52c03",
+        "bytes": 1770
+      },
+      {
+        "path": "VERIFY.md",
+        "sha256": "sha256:43e239fc3d3d68fa0c63a9b494237039beb068785ad717265946f891be2dd2be",
+        "bytes": 6315
+      }
+    ]
+  }
+}
