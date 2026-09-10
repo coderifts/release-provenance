@@ -1,0 +1,63 @@
+{
+  "spec": "coderifts.release-provenance.v1.index",
+  "frozen_set": {
+    "name": "status set 2026-09-10",
+    "digest": "sha256:512d162e27257d424167ec329622053cb74a1b3626d60a59b4fe6bb133ce77e1"
+  },
+  "records": [
+    {
+      "artifact": "guard",
+      "version": "17.3.2",
+      "path": "guard/17.3.2.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "cli",
+      "version": "8.6.2",
+      "path": "cli/8.6.2.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "conformance",
+      "version": "0.8.9",
+      "path": "conformance/0.8.9.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "sdk",
+      "version": "3.14.1",
+      "path": "sdk/3.14.1.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "prove",
+      "version": "0.1.11",
+      "path": "prove/0.1.11.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "gate",
+      "version": "v0.9.3",
+      "path": "gate/v0.9.3.json",
+      "kind": "git-tag"
+    },
+    {
+      "artifact": "release-acceptance",
+      "version": "1.0.2",
+      "path": "release-acceptance/1.0.2.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "python-sdk",
+      "version": "3.8.1",
+      "path": "python-sdk/3.8.1.json",
+      "kind": "pypi"
+    },
+    {
+      "artifact": "receipt-verifier",
+      "version": "v1.0.1",
+      "path": "receipt-verifier/v1.0.1.json",
+      "kind": "git-tag"
+    }
+  ]
+}

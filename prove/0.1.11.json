@@ -1,0 +1,355 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "prove",
+  "name": "@coderifts/prove",
+  "kind": "npm",
+  "version": "0.1.11",
+  "registry": {
+    "git_head": "f3b47bf39c6fa3840f89a6eb9f39d39d3ac8035a",
+    "integrity": "sha512-jAioHwhjDinm8dDqlcJtgusjHTsMEN7oVJp9k3bDhpgMad57Jt4sCaJk+nT9XIpSRya3Rt8R+EOCK5brJD2T5w==",
+    "shasum": "1c73452284cb09d873f3843d1275a28980ab6879",
+    "file_count": 64,
+    "unpacked_size": 834560,
+    "tarball": "https://registry.npmjs.org/@coderifts/prove/-/prove-0.1.11.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCICbK3n9XQvkKp1JEwXz+tIvBC/rwxhAuKz5T8IIHte/ZAiEAw2DG8A0Fbw9pQAiO6GrMQCkz+XEq4aM9wlcGXviQyzI="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/capability-demo.git",
+    "tag": "prove-v0.1.11",
+    "tag_object": "f3b47bf39c6fa3840f89a6eb9f39d39d3ac8035a",
+    "peeled_commit": "f3b47bf39c6fa3840f89a6eb9f39d39d3ac8035a",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:98e9fd4c23e9e3824d4f7d74a6c3c30bbfc50727a23d80308d2da0f00d8c1c04",
+    "tarball_bytes": 255366,
+    "file_count": 64,
+    "files": [
+      {
+        "path": "bin/prove-all.js",
+        "sha256": "sha256:c7f0154da718612ef9bcc98acc8dd11bf5ceb8e91b43dfc8ebd94713c09fb971",
+        "bytes": 63640
+      },
+      {
+        "path": "demo/bundle.js",
+        "sha256": "sha256:95caaa39247e9b5b77e9433aa1d9c59b676e707fda8496ec58735dfd9dc701f4",
+        "bytes": 14705
+      },
+      {
+        "path": "demo/contracts/openapi.yaml",
+        "sha256": "sha256:38cd72107163c6da2bc9c100942e29ba5a92b3e0806a35d07e7b0d33d7cbe0fa",
+        "bytes": 522
+      },
+      {
+        "path": "demo/e2e-chain.js",
+        "sha256": "sha256:2b3caaabf771ebc88cfaccf3e729003006c3506d02e0bac4f467e02186afbb2e",
+        "bytes": 45364
+      },
+      {
+        "path": "demo/fixtures/recorded-authorize/issuance.json",
+        "sha256": "sha256:fda3966893e23748769496e5a189cc9ad1aac9d0ecfe6459ed9d26a17c45edf5",
+        "bytes": 5292
+      },
+      {
+        "path": "demo/fixtures/recorded-authorize/issuer-keys.json",
+        "sha256": "sha256:5725f4a41e3a6c815e6b2b35624fc6b68ae304e0d4549c37c9e106e8582fe133",
+        "bytes": 280
+      },
+      {
+        "path": "demo/fixtures/recorded-authorize/pin.json",
+        "sha256": "sha256:c4fd62995dc1db98af4750062f8ca22b4a95404d547681817ecba8bb882045cb",
+        "bytes": 1466
+      },
+      {
+        "path": "demo/gen-keys.js",
+        "sha256": "sha256:aa9ac0579bd083d324af75ef1b9a2ff7f62e5590b87523b736fd23286b05eff6",
+        "bytes": 6310
+      },
+      {
+        "path": "demo/issue-grant.js",
+        "sha256": "sha256:229293a950880e28e56d20ee684d5469ea96451141330ac28d780db53752355f",
+        "bytes": 5966
+      },
+      {
+        "path": "demo/offline-check.js",
+        "sha256": "sha256:9c4f06ff50e0414ebdb66a41bd9b4e740e69024977f4a7bf7430e741ac58f117",
+        "bytes": 1733
+      },
+      {
+        "path": "demo/package.json",
+        "sha256": "sha256:5d66f3351958cad1441edaa9f1b9a16c11163bf03047e37f5a7d9e28573635db",
+        "bytes": 485
+      },
+      {
+        "path": "demo/prove.js",
+        "sha256": "sha256:0efa956b185a596fcfb1a67c913dc778bd539708565548e8ce9e042362bcc54b",
+        "bytes": 39287
+      },
+      {
+        "path": "demo/SELF-HOST.md",
+        "sha256": "sha256:8eacd22de1b5143a2177e855831838b6c7b9ecf3a5b287430206b0e336c08a0a",
+        "bytes": 6928
+      },
+      {
+        "path": "demo/sql/gate.sql",
+        "sha256": "sha256:f3f73cb3181334131d00a7870a86e6f21408ff5326831508213781e58a112009",
+        "bytes": 8456
+      },
+      {
+        "path": "demo/sql/roles.sql",
+        "sha256": "sha256:98fc3d371788eb216d04e94420aa58f6e67dd55f7ddbb9735bff1c2d95e28dbc",
+        "bytes": 2602
+      },
+      {
+        "path": "demo/sql/seal.sql",
+        "sha256": "sha256:228c66f08d266592610fbd08f7c78e4ca1c73ebe084ba441d24ddf6e35c4f558",
+        "bytes": 13968
+      },
+      {
+        "path": "demo/src/adapter-spi.js",
+        "sha256": "sha256:ce623509d25b09169d6bb04f0d84f97a99720eb474a4b14f023a52ed014979f3",
+        "bytes": 4511
+      },
+      {
+        "path": "demo/src/atomic.js",
+        "sha256": "sha256:2693801275d54ba3c45da59fecb08a7da4e17ae1238a3ac13a58ed17761c44a1",
+        "bytes": 13130
+      },
+      {
+        "path": "demo/src/authorization-continuity.js",
+        "sha256": "sha256:c049b7cc8d06dea20b7cc71315d46e488c0061a5d439c1f38053067686e7db43",
+        "bytes": 7342
+      },
+      {
+        "path": "demo/src/authorize-issue.js",
+        "sha256": "sha256:fd2917bf1528c6f2a8643c7e316024dc77c4f566ac47802e05c06959568ec6e0",
+        "bytes": 12063
+      },
+      {
+        "path": "demo/src/contract-correlation.js",
+        "sha256": "sha256:ccbb60d93945c0a1e9399d5175dc466899f094b943d65c45a7c887fb8f25e7b7",
+        "bytes": 12314
+      },
+      {
+        "path": "demo/src/db.js",
+        "sha256": "sha256:849eb53c24104f4025a8ab920c22d897853918540bb249f5ec0a88341c0e0bea",
+        "bytes": 8056
+      },
+      {
+        "path": "demo/src/git-atomic.js",
+        "sha256": "sha256:42bc8b25fb7aeb389442bf6cd727faec40d2214de5144c734e89719c955b65d8",
+        "bytes": 35099
+      },
+      {
+        "path": "demo/src/git-observer.js",
+        "sha256": "sha256:7ff787ea5a8e5e028c63974428777a2fdadc6f56a277d0e307c2eaec7eb583d9",
+        "bytes": 11192
+      },
+      {
+        "path": "demo/src/git-target.js",
+        "sha256": "sha256:ad09574a48229c3616372022c2c919d190b2393ffe86c80468645e77c3a4115f",
+        "bytes": 29434
+      },
+      {
+        "path": "demo/src/governed-contract.js",
+        "sha256": "sha256:69d1c04d7029b4af686ad4236b7b9304d2d3dee4806e829939b5683f26d99aa7",
+        "bytes": 6881
+      },
+      {
+        "path": "demo/src/http-atomic.js",
+        "sha256": "sha256:bf385f323d8e7f702fc64b1031fff795993684125c269df42110f3b7a0c01d60",
+        "bytes": 28706
+      },
+      {
+        "path": "demo/src/ledger-hook.js",
+        "sha256": "sha256:3207ecc9339f8ca54c776126488183a5d05ce84d156b8e3cbdd6b4f6da25158f",
+        "bytes": 5449
+      },
+      {
+        "path": "demo/src/metrics.js",
+        "sha256": "sha256:221faa0a12b28bfd42f9c46603690b1f04d2fda5f90bc32d4e0b4782713dc404",
+        "bytes": 7059
+      },
+      {
+        "path": "demo/src/offline-reverify.js",
+        "sha256": "sha256:667cea122bce1d08b27e91646e1934d1ab51c42da9a2638da475e63bb71c0c7f",
+        "bytes": 9847
+      },
+      {
+        "path": "demo/src/posture.js",
+        "sha256": "sha256:e65095d2f1a26ffd6100187f7ba973d6b92c5ff32f65a1fedd770ad5cb6e6364",
+        "bytes": 27527
+      },
+      {
+        "path": "demo/src/reconcile.js",
+        "sha256": "sha256:2c3ef534b75b809625147378f0bf9b1cce7647bf6a4bb245ace80c50668806f1",
+        "bytes": 36755
+      },
+      {
+        "path": "demo/src/server-grant.js",
+        "sha256": "sha256:15000645c45bff9afbfb9c6b40fd2abead8f52033ac1b784c56d3c95ce1a1b7a",
+        "bytes": 10643
+      },
+      {
+        "path": "demo/src/server.js",
+        "sha256": "sha256:8da886708ab7775045b3778af5bc20d2204952f6e4ccf9b2945836a27af0cfd4",
+        "bytes": 21562
+      },
+      {
+        "path": "demo/src/target-state-transition.js",
+        "sha256": "sha256:7a850651fd8e42f631526a5152a7d2e6c85d24897a2377610f2b87c45f278256",
+        "bytes": 17510
+      },
+      {
+        "path": "demo/src/verify-transcript.js",
+        "sha256": "sha256:23cafff65c0e15c161dd45adfa7bade12a63b65401918b860a528da6e6d15d4d",
+        "bytes": 1813
+      },
+      {
+        "path": "docs/adapter-strength.v1.json",
+        "sha256": "sha256:cd9b4151f065b9f206611813d079c05a27eb9ec8593c91aff50d92e0a24f9cf3",
+        "bytes": 2876
+      },
+      {
+        "path": "examples/atomic-v2/README.md",
+        "sha256": "sha256:a99a5e933a171cbb4d40f063c5b29a52028be26628bbea5323878557c45183f1",
+        "bytes": 3659
+      },
+      {
+        "path": "examples/atomic-v2/run.js",
+        "sha256": "sha256:b92b94e50b47a3f1d55d6c4c11cbf76b4a36043926dde580861983d33bd51cee",
+        "bytes": 11916
+      },
+      {
+        "path": "examples/conformance-e2e-7-7/PROFILE.md",
+        "sha256": "sha256:b9d43471cd496d810d38e43d97f6497a0c39aa51ddd75cd1d22b708581109e4f",
+        "bytes": 910
+      },
+      {
+        "path": "examples/sample-transcript/executor-keys.json",
+        "sha256": "sha256:0b226cbee900525123b8f033564f270f846d84ead58d34bbcb517dc1450c7714",
+        "bytes": 568
+      },
+      {
+        "path": "examples/sample-transcript/PROFILE.md",
+        "sha256": "sha256:522d15facde04d5ce72230b6b80b880a6443471fa967a6765c10a10195d5ed3a",
+        "bytes": 969
+      },
+      {
+        "path": "examples/sample-transcript/transcript.json",
+        "sha256": "sha256:f9e2c56e97f8d872efb8ecddc65f08349d7f2afb7682920e5a22d1b6b000039f",
+        "bytes": 13339
+      },
+      {
+        "path": "examples/sample-transcript/TRANSCRIPT.md",
+        "sha256": "sha256:eaa722f7b22ecf3a584b28e3a352972b35254d07108de515aea1ce46841ce70a",
+        "bytes": 4971
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:01dfa2f4fa812efa7f32010bcdc2ee35f49e767a0d8491d279d71170ba0f708b",
+        "bytes": 1507
+      },
+      {
+        "path": "packages/middleware/LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "packages/middleware/README.md",
+        "sha256": "sha256:59b8d8823e04d3ba99a695e9e9c196d345253623e309dbd633643e4459880e83",
+        "bytes": 5006
+      },
+      {
+        "path": "packages/middleware/src/attest.js",
+        "sha256": "sha256:0485f71d42d2f86c84d52bbd6941c7085e69a5a5eea4796db7d6c4458dfeb01e",
+        "bytes": 12718
+      },
+      {
+        "path": "packages/middleware/src/deny-remedy.js",
+        "sha256": "sha256:0e432b0d93fb84e3e87f35c5186ebea358e3a6aeccdc0721a2d38a37193364aa",
+        "bytes": 4986
+      },
+      {
+        "path": "packages/middleware/src/index.js",
+        "sha256": "sha256:b20df98872863984a562c059c3b1858ef3fd6b72f2d1e122b1fe1853ea65c140",
+        "bytes": 13558
+      },
+      {
+        "path": "packages/middleware/src/verify-grant.js",
+        "sha256": "sha256:91a2745f49894c3d5ca9e73b594926745165a0a551819a208e2d5d251fbd1288",
+        "bytes": 23944
+      },
+      {
+        "path": "packages/verifier-core/arity.js",
+        "sha256": "sha256:721fcac58b960b5e2aa1af91edb6cfc87ebe828a6da73879967ef79a1ca474e8",
+        "bytes": 1849
+      },
+      {
+        "path": "packages/verifier-core/evidence-root.js",
+        "sha256": "sha256:4d5476fc44bbfc2a847feeb313a1c6c08ef7fd832a2348ef3c244bd8d3f03fcd",
+        "bytes": 8559
+      },
+      {
+        "path": "packages/verifier-core/VENDOR.sha256",
+        "sha256": "sha256:26a7e32e625fd9ff583499c0410f5e334113cb072d6daebc036ee685fa262460",
+        "bytes": 3411
+      },
+      {
+        "path": "packages/verifier-core/verified-execution-binding.js",
+        "sha256": "sha256:9d0259e916f2bcd32029744c3e9ec81448bcefa46e6ad3f054c8a650dc0482b7",
+        "bytes": 29188
+      },
+      {
+        "path": "packages/verifier-core/verify-atomic-attestation.js",
+        "sha256": "sha256:8ef57d4c3d7882f8f9215461cee7d582520ced18d467ba083e05b1aa9c54b1f7",
+        "bytes": 9517
+      },
+      {
+        "path": "packages/verifier-core/verify-attest.js",
+        "sha256": "sha256:035105de0f163d112038624eb2bf93cee059a565216fd8b03489964f6b0b2fa8",
+        "bytes": 19639
+      },
+      {
+        "path": "packages/verifier-core/verify-bundle.js",
+        "sha256": "sha256:190de0dda70c4d15dcd21fb6bb6b279313e48f90bf2e477463580968d0987127",
+        "bytes": 22500
+      },
+      {
+        "path": "packages/verifier-core/verify-evidence.js",
+        "sha256": "sha256:98cd9b989a25095e0442f91f68a1adecd6e6a2a5b05902bf2580b8cba973c5e2",
+        "bytes": 19430
+      },
+      {
+        "path": "packages/verifier-core/verify-grant.js",
+        "sha256": "sha256:4a0ad5bd7bb8282e086bea99dcaf8ca278370d80019c5681d2942bf11bc87504",
+        "bytes": 26414
+      },
+      {
+        "path": "packages/verifier-core/verify-prove-transcript.js",
+        "sha256": "sha256:3bb17bd4f16d5ee3cf3fbb754b4df9aa570a615ca94ff2a97b751c4fabd3bd0d",
+        "bytes": 2931
+      },
+      {
+        "path": "packages/verifier-core/verify-toolset.js",
+        "sha256": "sha256:2f0987a28f3e7d3758d71f59799d1a5c6190aaa882f8f887809b2bff434e2df8",
+        "bytes": 19222
+      },
+      {
+        "path": "packages/verifier-core/verify.js",
+        "sha256": "sha256:348d3f851cd79bf63298b51da422d11be980820576ab0bf0a2990b9f007d6249",
+        "bytes": 20636
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:bd9434b6d9754d5f68bb2d4bf8eaf1d1fd4a386174781356c4d33d49a0fb79e8",
+        "bytes": 25374
+      }
+    ]
+  }
+}

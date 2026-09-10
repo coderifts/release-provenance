@@ -1,0 +1,17 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "receipt-verifier",
+  "name": "https://github.com/coderifts/receipt-verifier.git",
+  "kind": "git-tag",
+  "version": "v1.0.1",
+  "registry": null,
+  "source": {
+    "repository": "https://github.com/coderifts/receipt-verifier.git",
+    "tag": "v1.0.1",
+    "tag_object": "06dd74f36f60e0b4d22dd4667732fe0a27575287",
+    "peeled_commit": "51a8224439959a5b46c0b09e9a2cd67117f05d56",
+    "annotated": true
+  },
+  "signer": null,
+  "shipped": null
+}

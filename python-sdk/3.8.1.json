@@ -1,0 +1,30 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "python-sdk",
+  "name": "coderifts-sdk",
+  "kind": "pypi",
+  "version": "3.8.1",
+  "registry": {
+    "files": [
+      {
+        "filename": "coderifts_sdk-3.8.1-py3-none-any.whl",
+        "packagetype": "bdist_wheel",
+        "sha256": "sha256:298da18d019a1d40815bf0f401f79bf240414f1a608db7404aa9e13d58f1cac3",
+        "bytes": 39992,
+        "url": "https://files.pythonhosted.org/packages/e1/2e/9a7d10f942d72ed661dad61eb89ae80fda5d6cf4eeda441eae6b19b75aa6/coderifts_sdk-3.8.1-py3-none-any.whl"
+      },
+      {
+        "filename": "coderifts_sdk-3.8.1.tar.gz",
+        "packagetype": "sdist",
+        "sha256": "sha256:b7f3ee960c46d1469b3d0c19ecc9c9e22fdd63a99b2dc8c9e226dbbff6240bab",
+        "bytes": 66441,
+        "url": "https://files.pythonhosted.org/packages/a4/3c/c0bd6ab04be000a8dd3797bc772c29baa9124b9754d6f2a30837b3ff35dc/coderifts_sdk-3.8.1.tar.gz"
+      }
+    ]
+  },
+  "source": {
+    "repository": null,
+    "note": "PyPI records no source commit for this project"
+  },
+  "shipped": null
+}

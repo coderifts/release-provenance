@@ -1,0 +1,85 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "release-acceptance",
+  "name": "@coderifts/release-acceptance",
+  "kind": "npm",
+  "version": "1.0.2",
+  "registry": {
+    "git_head": "16ef4f56ffe4a0a5dd9b66a5aa7a9e6eeefde1a7",
+    "integrity": "sha512-vKLGIaP8ylk1Q9MAEpV6ApKyeDO3DNMnBPxmPSz5Y9GcXl1hVw/5Fj9XPmGMptLjcylBkIfMVcNmTiAyhUCe3Q==",
+    "shasum": "abd49767b7f2c443f8b6f8be9c6f691f4d1acfc7",
+    "file_count": 10,
+    "unpacked_size": 64687,
+    "tarball": "https://registry.npmjs.org/@coderifts/release-acceptance/-/release-acceptance-1.0.2.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQDVLyCsXFdsquC9Yz3Yu+rgovhS07eiBe44NMQhL/aQiwIgEEq4SoPgNDJZIj3GCRe0SPrE0xMmyfyBhwBXQK2mUMQ="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/app.git",
+    "tag": "release-acceptance-v1.0.2",
+    "tag_object": "16ef4f56ffe4a0a5dd9b66a5aa7a9e6eeefde1a7",
+    "peeled_commit": "16ef4f56ffe4a0a5dd9b66a5aa7a9e6eeefde1a7",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:04e9db0b5ec2e2e6eebb9dfbb003e354a0223c799fa8d1bcbd439f736befbe43",
+    "tarball_bytes": 20049,
+    "file_count": 10,
+    "files": [
+      {
+        "path": "bin/release-acceptance.js",
+        "sha256": "sha256:d077471e20af233b99f7d854e5be5b3135e81e740247c416642d3d60521eb422",
+        "bytes": 319
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:0956912840e9d7fef7618371ef88647d0086720c873e9e6bf9207052a804b450",
+        "bytes": 947
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:5cb284e663b1d594a56ba84afc272adc40e8b627baa4a813636fa96560c722ea",
+        "bytes": 1051
+      },
+      {
+        "path": "src/controls.js",
+        "sha256": "sha256:bbe82388673695361205da1d664fc9a0c42742bd62784ac6a8f9007e65a0b59e",
+        "bytes": 21924
+      },
+      {
+        "path": "src/generated-paths.js",
+        "sha256": "sha256:9ef11b187bf420abd1b1bc60154e3e8a1d444a4d3b05652232d939fe3b541633",
+        "bytes": 6258
+      },
+      {
+        "path": "src/index.js",
+        "sha256": "sha256:9f51129e9bf6b1bddff29c6334f43613855b77726c393d71f2666093f57ec9d2",
+        "bytes": 7421
+      },
+      {
+        "path": "src/live-docs.js",
+        "sha256": "sha256:05762aa381d3f0aad6d1012f57d9ced1e0ab5337747e5e09d5f6cfe822543f1a",
+        "bytes": 6451
+      },
+      {
+        "path": "src/prose.js",
+        "sha256": "sha256:826c14f46c7a54fe02f8243128928eed533cb16e969cf18a0b20fb4b5f9fd9c9",
+        "bytes": 2999
+      },
+      {
+        "path": "src/registry.js",
+        "sha256": "sha256:ce205beae18d76b474b6aa9abeea7fca82c31d42633b071998025328dfae28ff",
+        "bytes": 16251
+      }
+    ]
+  }
+}
