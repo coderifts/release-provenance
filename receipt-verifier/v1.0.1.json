@@ -12,6 +12,12 @@
     "peeled_commit": "51a8224439959a5b46c0b09e9a2cd67117f05d56",
     "annotated": true
   },
-  "signer": null,
+  "signer": {
+    "fingerprint": "SHA256:7yRXTm9zKGicfFpzL+7lpwFoPaoSwxAJlabB3jwxw2Y",
+    "identity": "zsobpeter@gmail.com",
+    "verify_command": "git -c gpg.ssh.allowedSignersFile=verification/allowed_signers tag -v v1.0.1",
+    "allowed_signers": "verification/allowed_signers (in the receipt-verifier repository)"
+  },
+  "signer_reason": null,
   "shipped": null
 }

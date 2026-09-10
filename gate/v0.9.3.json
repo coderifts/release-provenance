@@ -13,5 +13,6 @@
     "annotated": false
   },
   "signer": null,
+  "signer_reason": "git tag -v v0.9.3 did not verify: error: v0.9.3: cannot verify a non-tag object of type commit.",
   "shipped": null
 }
