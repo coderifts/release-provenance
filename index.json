@@ -2,7 +2,7 @@
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
     "name": "status set 2026-09-10",
-    "digest": "sha256:512d162e27257d424167ec329622053cb74a1b3626d60a59b4fe6bb133ce77e1"
+    "digest": "sha256:47e75654b417ec2bd496faf50123dec70b076b2dcbba0f44868fca82e5d469b2"
   },
   "records": [
     {
@@ -55,8 +55,8 @@
     },
     {
       "artifact": "receipt-verifier",
-      "version": "v1.0.1",
-      "path": "receipt-verifier/v1.0.1.json",
+      "version": "v1.0.2",
+      "path": "receipt-verifier/v1.0.2.json",
       "kind": "git-tag"
     }
   ]
