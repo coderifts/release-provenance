@@ -1,63 +1,39 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "status set 2026-09-10b — conformance 0.8.10",
-    "digest": "sha256:2c527a57c6c5499100e178f50cda07f5e0de410fb4976ee593edfa3745f600f6"
+    "name": "release-set-2026-09-11a",
+    "digest": "sha256:d22b75951f29c6a02c032c518f9d660ff5ef7c5e65a356c5149a0b54fd12e0e3"
   },
   "records": [
     {
-      "artifact": "guard",
-      "version": "17.3.2",
-      "path": "guard/17.3.2.json",
-      "kind": "npm"
-    },
-    {
-      "artifact": "cli",
-      "version": "8.6.2",
-      "path": "cli/8.6.2.json",
-      "kind": "npm"
-    },
-    {
-      "artifact": "conformance",
-      "version": "0.8.10",
-      "path": "conformance/0.8.10.json",
-      "kind": "npm"
-    },
-    {
       "artifact": "sdk",
-      "version": "3.14.1",
-      "path": "sdk/3.14.1.json",
+      "version": "3.14.2",
+      "path": "sdk/3.14.2.json",
       "kind": "npm"
     },
     {
       "artifact": "prove",
-      "version": "0.1.11",
-      "path": "prove/0.1.11.json",
+      "version": "0.1.12",
+      "path": "prove/0.1.12.json",
       "kind": "npm"
     },
     {
-      "artifact": "gate",
-      "version": "v0.9.3",
-      "path": "gate/v0.9.3.json",
-      "kind": "git-tag"
+      "artifact": "conformance",
+      "version": "0.8.11",
+      "path": "conformance/0.8.11.json",
+      "kind": "npm"
     },
     {
       "artifact": "release-acceptance",
-      "version": "1.0.2",
-      "path": "release-acceptance/1.0.2.json",
+      "version": "1.0.4",
+      "path": "release-acceptance/1.0.4.json",
       "kind": "npm"
     },
     {
-      "artifact": "python-sdk",
-      "version": "3.8.1",
-      "path": "python-sdk/3.8.1.json",
-      "kind": "pypi"
-    },
-    {
-      "artifact": "receipt-verifier",
-      "version": "v1.0.2",
-      "path": "receipt-verifier/v1.0.2.json",
-      "kind": "git-tag"
+      "artifact": "guard",
+      "version": "17.3.3",
+      "path": "guard/17.3.3.json",
+      "kind": "npm"
     }
   ]
 }

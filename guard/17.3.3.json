@@ -1,0 +1,2430 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "guard",
+  "name": "@coderifts/agent-guard",
+  "kind": "npm",
+  "version": "17.3.3",
+  "registry": {
+    "git_head": "b11a82c72b46ca3d8fc89ec1608b95cd9ba792b7",
+    "integrity": "sha512-ACAzgjPYUIXh0iYSb7yIMFpZU37aJsrcmvW5f3kyjMsJB6lQ1laW/ogPev0ht9RT/zoViscbe7TofN33r9WCKQ==",
+    "shasum": "3ac2dd3f951ad7fb77ef047152a91f719a2fbd2b",
+    "file_count": 479,
+    "unpacked_size": 3222519,
+    "tarball": "https://registry.npmjs.org/@coderifts/agent-guard/-/agent-guard-17.3.3.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQDwh3BaPC/NPlnBrBSCnCac7qmItgSPxW4qJLuY3pBVVgIgLoLEvNn+rIvLiYgS6t3MqpdzleJBcYwxm3cLHvVBOSM="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/agent-guard.git",
+    "tag": "agent-guard-v17.3.3",
+    "tag_object": "b11a82c72b46ca3d8fc89ec1608b95cd9ba792b7",
+    "peeled_commit": "b11a82c72b46ca3d8fc89ec1608b95cd9ba792b7",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:ae5d38df6a74131ae2ff1462f8c468cb78338f7183e79a1e1746bc6ea2650cb4",
+    "tarball_bytes": 508657,
+    "file_count": 479,
+    "files": [
+      {
+        "path": "dist/cjs/adapters/anthropic.d.ts",
+        "sha256": "sha256:05374b0e288ed40db461cdc51afbf91ed8a7908e6468e207a768cd778d595d56",
+        "bytes": 5983
+      },
+      {
+        "path": "dist/cjs/adapters/anthropic.d.ts.map",
+        "sha256": "sha256:f69af773fd76c0fe2ec3b104b65ae37f3d0fc7e2082ecaba66169b1b6c228041",
+        "bytes": 1866
+      },
+      {
+        "path": "dist/cjs/adapters/anthropic.js",
+        "sha256": "sha256:1ded2df9fab9efc6176588e6e675e2010944757af860b989f8883d61ef0427b2",
+        "bytes": 5906
+      },
+      {
+        "path": "dist/cjs/adapters/anthropic.js.map",
+        "sha256": "sha256:4068571ea90b79807b5d79fee209d61c70387811368366634dabedb0d48aa7b8",
+        "bytes": 2823
+      },
+      {
+        "path": "dist/cjs/adapters/crewai.d.ts",
+        "sha256": "sha256:42924a7a6166f4c914b85c965ce24e064ed05c2c3d935343a82b0f80a837c488",
+        "bytes": 4187
+      },
+      {
+        "path": "dist/cjs/adapters/crewai.d.ts.map",
+        "sha256": "sha256:7985c13a72ce4ee70946e203e3013a851264607150f1f2596921141b1bb77e38",
+        "bytes": 1006
+      },
+      {
+        "path": "dist/cjs/adapters/crewai.js",
+        "sha256": "sha256:bc3c4859741d0ebb24fd219ae732c7777f539e3204bd4f888fcb3a8df1a84435",
+        "bytes": 4384
+      },
+      {
+        "path": "dist/cjs/adapters/crewai.js.map",
+        "sha256": "sha256:5e2452f6d017dfe64d4be1121a68692869080504d62d760b6addf4bad5c00dcc",
+        "bytes": 1620
+      },
+      {
+        "path": "dist/cjs/adapters/gemini.d.ts",
+        "sha256": "sha256:aacb06977c24a22cb30d814ed30196d619f89f10d012abd1ebc5aaa55311422d",
+        "bytes": 7325
+      },
+      {
+        "path": "dist/cjs/adapters/gemini.d.ts.map",
+        "sha256": "sha256:05ba46457242d743504de22e28906d54d262fb606075e37fd35dce47d8b6cef0",
+        "bytes": 2008
+      },
+      {
+        "path": "dist/cjs/adapters/gemini.js",
+        "sha256": "sha256:d2a651e52a098d6a4a328729332f873e6b438600ed2e524b8c1130054e3514df",
+        "bytes": 6959
+      },
+      {
+        "path": "dist/cjs/adapters/gemini.js.map",
+        "sha256": "sha256:a9e035f5d94f9184b659fc7aae5f2e7b6ca12f8d673ac3e534f9512ae5c5a236",
+        "bytes": 3126
+      },
+      {
+        "path": "dist/cjs/adapters/langchain.d.ts",
+        "sha256": "sha256:8ff076cc819c26a0fcc31936302e5818f8a3595f3c72b5ccf18966de36d0c200",
+        "bytes": 4623
+      },
+      {
+        "path": "dist/cjs/adapters/langchain.d.ts.map",
+        "sha256": "sha256:e35ba4a4faf50be1f26b5e48949d7f1dcae8191d776b69f3546808d12705cc4a",
+        "bytes": 1321
+      },
+      {
+        "path": "dist/cjs/adapters/langchain.js",
+        "sha256": "sha256:67b0210fec5a09fd8ebc2b92b774a6d4d3a3dcee57ba9e10b83790ce75c9364f",
+        "bytes": 4409
+      },
+      {
+        "path": "dist/cjs/adapters/langchain.js.map",
+        "sha256": "sha256:43cf3fe2aea7fe87f56b9763e219e30347ae0e9479cbaf9fd0e9aa76bd62df11",
+        "bytes": 1808
+      },
+      {
+        "path": "dist/cjs/adapters/langgraph.d.ts",
+        "sha256": "sha256:f7f0430f0b89868dc59e7ba6e12bc141f615df66771ffa2fc1fb12f23435ca3a",
+        "bytes": 9184
+      },
+      {
+        "path": "dist/cjs/adapters/langgraph.d.ts.map",
+        "sha256": "sha256:ad27eec49c45c948fd383ed175ee1aae8ba2416436fad49625eb7abb691c150f",
+        "bytes": 2412
+      },
+      {
+        "path": "dist/cjs/adapters/langgraph.js",
+        "sha256": "sha256:9267cea6484a2e08d5379495917c397917a9806f6841f2fe4ccfe4fc654313ce",
+        "bytes": 10104
+      },
+      {
+        "path": "dist/cjs/adapters/langgraph.js.map",
+        "sha256": "sha256:1585f4a5acdf812c2a825bb77b0d945a25c5533def1b47375ab507f2e1a8398a",
+        "bytes": 4586
+      },
+      {
+        "path": "dist/cjs/adapters/openai.d.ts",
+        "sha256": "sha256:d6ab10371e619e3df89c7d9407842dec8ef3bb44838dedea39fc48a2a70c33f1",
+        "bytes": 6838
+      },
+      {
+        "path": "dist/cjs/adapters/openai.d.ts.map",
+        "sha256": "sha256:5622d75ced31ab2dd7c0b6e2c30beca27850efd4838db558cdf6980e620018cc",
+        "bytes": 1962
+      },
+      {
+        "path": "dist/cjs/adapters/openai.js",
+        "sha256": "sha256:9acb97363b2f5233efc2a9a8de63f2ad897788fbfd2180afa16597e1d42e5839",
+        "bytes": 6819
+      },
+      {
+        "path": "dist/cjs/adapters/openai.js.map",
+        "sha256": "sha256:76517564e1f8cadc40394bf91f6fc948c7219372b0613adcd0db9015065b11f6",
+        "bytes": 2969
+      },
+      {
+        "path": "dist/cjs/adapters/vercel.d.ts",
+        "sha256": "sha256:1d1b994bda7519acc98cfa6abf5b25d73a79bd30f00c7eee0ebf6aa9dcf295f4",
+        "bytes": 7009
+      },
+      {
+        "path": "dist/cjs/adapters/vercel.d.ts.map",
+        "sha256": "sha256:54dd9fee6c619606e58720ff65a5f8767e7e60e5138fb24a85b18f0dae76dffc",
+        "bytes": 2214
+      },
+      {
+        "path": "dist/cjs/adapters/vercel.js",
+        "sha256": "sha256:1252ab5200811f23176610d852f48d1c559acf32f6038f886aa5a170dc9e37ff",
+        "bytes": 9277
+      },
+      {
+        "path": "dist/cjs/adapters/vercel.js.map",
+        "sha256": "sha256:b978bedf50117f9cd8703a2d7372945d31680b5d13892a604cf0ebeb71e7a2ec",
+        "bytes": 5206
+      },
+      {
+        "path": "dist/cjs/artifact-resolver.d.ts",
+        "sha256": "sha256:35b4d61bee0d36e597af7f5be2417ae81377a9e7537894116c3bebf85f0be7ab",
+        "bytes": 3819
+      },
+      {
+        "path": "dist/cjs/artifact-resolver.d.ts.map",
+        "sha256": "sha256:fa6a7129746d2f49ffcea17368e00424303fd30af66217ea93901f7147c35daa",
+        "bytes": 2242
+      },
+      {
+        "path": "dist/cjs/artifact-resolver.js",
+        "sha256": "sha256:893e9fbfb156b8da2cbab189910f2730cecc1edec7123ce9f6213c791f6e3d8a",
+        "bytes": 19731
+      },
+      {
+        "path": "dist/cjs/artifact-resolver.js.map",
+        "sha256": "sha256:f8f80f718f4120603c26ac1a545508305b71cde73c30af5e6c489c8e38d3c479",
+        "bytes": 20158
+      },
+      {
+        "path": "dist/cjs/atomic-profile.d.ts",
+        "sha256": "sha256:05ae72e231fdfe654fc8785e23068b89fb2cfbade7fe8a2e13dcee9d086de5f3",
+        "bytes": 5970
+      },
+      {
+        "path": "dist/cjs/atomic-profile.d.ts.map",
+        "sha256": "sha256:ce96cd013f5a12861436d41ee1fa65e9a9a725a09520d3fa76ca05d9f208ddae",
+        "bytes": 2387
+      },
+      {
+        "path": "dist/cjs/atomic-profile.js",
+        "sha256": "sha256:606a10143616d135ea6cb1a3bb07eff14b4fb4a6c28aac591a8f6b247f5227e6",
+        "bytes": 12551
+      },
+      {
+        "path": "dist/cjs/atomic-profile.js.map",
+        "sha256": "sha256:344b4a92685d9469c0f0fa4169743d066f5017c1b4184c2a9ec55d0bdaf47317",
+        "bytes": 5860
+      },
+      {
+        "path": "dist/cjs/auto-derive.d.ts",
+        "sha256": "sha256:d3e7bf11135cafb6258a7bf66c01d18c79ebfcdf665961c9e95b15804d07be48",
+        "bytes": 3127
+      },
+      {
+        "path": "dist/cjs/auto-derive.d.ts.map",
+        "sha256": "sha256:b575e240412f5f5f884e0f7ca11a6d2bb781c5fad18334b0841c1dcdc75574f6",
+        "bytes": 2106
+      },
+      {
+        "path": "dist/cjs/auto-derive.js",
+        "sha256": "sha256:9eb65e8c7946c768c7aaa3041b1c420c6eb9c6b05aa7a3b3e2aeb0f03bb5e935",
+        "bytes": 9097
+      },
+      {
+        "path": "dist/cjs/auto-derive.js.map",
+        "sha256": "sha256:17823f979dd82fb8bfa22cb69cec19cc7a2f054e2b025784b7f33aefd7094127",
+        "bytes": 8836
+      },
+      {
+        "path": "dist/cjs/auto-recheck.d.ts",
+        "sha256": "sha256:218770047f9791a50333f8ab86a2770dfb3b062c4846b4212192c53c45c98c06",
+        "bytes": 3554
+      },
+      {
+        "path": "dist/cjs/auto-recheck.d.ts.map",
+        "sha256": "sha256:97392c07ef9f384774d904ce70318ecb0f185feaa29ed711803f73f13ea74f8c",
+        "bytes": 1884
+      },
+      {
+        "path": "dist/cjs/auto-recheck.js",
+        "sha256": "sha256:b7b300af77370eba40f3b5bc880e2464deb6049f18b97b264f0c12ae4ec514bc",
+        "bytes": 9357
+      },
+      {
+        "path": "dist/cjs/auto-recheck.js.map",
+        "sha256": "sha256:45f9bf9960b3cfd9198174ef2638e3449cefd1f34148361205dd09ba9d17231c",
+        "bytes": 8195
+      },
+      {
+        "path": "dist/cjs/cas-adapters/api.d.ts",
+        "sha256": "sha256:41b24b7d66426911fb2d109c3b028b04def23b5c268c14c8abe2cf5eafd237f1",
+        "bytes": 4626
+      },
+      {
+        "path": "dist/cjs/cas-adapters/api.d.ts.map",
+        "sha256": "sha256:105fcac8a49294fe3536ad68cdcccb7c3ec40da5181a3cc1d02e6339f0db06b4",
+        "bytes": 1527
+      },
+      {
+        "path": "dist/cjs/cas-adapters/api.js",
+        "sha256": "sha256:7cb30ba541d9f69fa35c5c9d7e823cca63eba5cc31ac4eeffd4f1123fa1e85f7",
+        "bytes": 5687
+      },
+      {
+        "path": "dist/cjs/cas-adapters/api.js.map",
+        "sha256": "sha256:83949939868909dbf378d5bf6c9fa1ff1b1b5df506c8303ab0dc10984f54131b",
+        "bytes": 2831
+      },
+      {
+        "path": "dist/cjs/cas-adapters/db.d.ts",
+        "sha256": "sha256:88cf305277582f9c95bc27609bcdd768774245fa971db9806f65c272e0b916ad",
+        "bytes": 4485
+      },
+      {
+        "path": "dist/cjs/cas-adapters/db.d.ts.map",
+        "sha256": "sha256:24a8dbaeb32ca1a8172078dce4c771881fefa9c576d5a7e381f53e1f0cae628f",
+        "bytes": 1799
+      },
+      {
+        "path": "dist/cjs/cas-adapters/db.js",
+        "sha256": "sha256:3bbc20db161bf0ffa192a1a5b42405c67684a091ae507bb7ba4206ec9759ab55",
+        "bytes": 5864
+      },
+      {
+        "path": "dist/cjs/cas-adapters/db.js.map",
+        "sha256": "sha256:f3d0a19c884d3275216bf1e1061bae2eb67cad188f1337595e8d0c2db2f78bb2",
+        "bytes": 3227
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs-default-wire.d.ts",
+        "sha256": "sha256:eb68a361c0220168bbce4814976c963e94956dcf25c1e8b7c44f53e2b15a7b51",
+        "bytes": 3372
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs-default-wire.d.ts.map",
+        "sha256": "sha256:551e9fb703b1a58a356f8f8ed453c6d891e6de0188971a42781a97d9d63ccb7d",
+        "bytes": 1123
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs-default-wire.js",
+        "sha256": "sha256:fd245c9197d0a8a7dbeeebb06ac58cb773e6bc38251c1a72b41ee81a160ebe76",
+        "bytes": 5287
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs-default-wire.js.map",
+        "sha256": "sha256:8b51a2799e34ef5786725c663040a6df6216325b57a203187bb1eaccfa2cf0d7",
+        "bytes": 2483
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs.d.ts",
+        "sha256": "sha256:3c5491f14eace92b2eb03f7d6c6495744cc42eb83d43a55bc0afd09b9e00319c",
+        "bytes": 7035
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs.d.ts.map",
+        "sha256": "sha256:7e46666459e91ba24afc69a308adcd51ea90e93d705ba0b59f4bc1de3558a98d",
+        "bytes": 1928
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs.js",
+        "sha256": "sha256:83c1a69966583fda9f733f5e96f81d3663f6e8a7a7ade7abe01d63539617763c",
+        "bytes": 17746
+      },
+      {
+        "path": "dist/cjs/cas-adapters/fs.js.map",
+        "sha256": "sha256:61fcedf4ae44a362625ae29bf113e057a783e8c75ba1e4c34995d98e9046e0fa",
+        "bytes": 8870
+      },
+      {
+        "path": "dist/cjs/cas-adapters/registry.d.ts",
+        "sha256": "sha256:d4d40062d10600beff5061438e737ac997f116d8e5bf839b80065f080fe06654",
+        "bytes": 4028
+      },
+      {
+        "path": "dist/cjs/cas-adapters/registry.d.ts.map",
+        "sha256": "sha256:8a17e73546673b50dbef64e1a457e1593709db8ac14a7b30331ddcac8a2a32de",
+        "bytes": 1857
+      },
+      {
+        "path": "dist/cjs/cas-adapters/registry.js",
+        "sha256": "sha256:0ff9591178274945859bf14f55bbdcc333973849dd45d86ac86d36765b892453",
+        "bytes": 5456
+      },
+      {
+        "path": "dist/cjs/cas-adapters/registry.js.map",
+        "sha256": "sha256:8929241d7b8fb51944b80eb79e4e22dc09fa0bf03c500be0b0c063e60cef33ee",
+        "bytes": 3083
+      },
+      {
+        "path": "dist/cjs/cas-attestation.d.ts",
+        "sha256": "sha256:0467ac5dda09a2c6602f06630a62afa52f2622e01bf1da45b98270a7e66ff75c",
+        "bytes": 12377
+      },
+      {
+        "path": "dist/cjs/cas-attestation.d.ts.map",
+        "sha256": "sha256:3bc3eb99307eb708c2a6cabdfa4e8b0a7f37354f95fbb28879c9da8b8394b30a",
+        "bytes": 4458
+      },
+      {
+        "path": "dist/cjs/cas-attestation.js",
+        "sha256": "sha256:2c83cecdf94b3b901d19bcc5c7660fbe084b6ef17ccc150357515d8b133aa09e",
+        "bytes": 25628
+      },
+      {
+        "path": "dist/cjs/cas-attestation.js.map",
+        "sha256": "sha256:a39f6b144e7e075104c58e845c5a66731d62784fa3a23ce33321442b0bf51148",
+        "bytes": 15234
+      },
+      {
+        "path": "dist/cjs/commit-observation.d.ts",
+        "sha256": "sha256:9a8fa83085bccbdc02a3d80de57b2ed425d6dd423aad4cd99c98c437456100e7",
+        "bytes": 1567
+      },
+      {
+        "path": "dist/cjs/commit-observation.d.ts.map",
+        "sha256": "sha256:0bbd293d87655a71db5f1e2345c692052e8be4bef226f4f5cb6765697a1f8bf2",
+        "bytes": 1628
+      },
+      {
+        "path": "dist/cjs/commit-observation.js",
+        "sha256": "sha256:490cf640c08edac7f22ec8ea09631b4588ac6094a5d572bbd855a6a5d45c0f73",
+        "bytes": 7785
+      },
+      {
+        "path": "dist/cjs/commit-observation.js.map",
+        "sha256": "sha256:c43c96c1bbdb04d4a64322bcd23e570a93fb26d0e0297e5fab7a1fc5e48f1149",
+        "bytes": 7598
+      },
+      {
+        "path": "dist/cjs/conditional-write.d.ts",
+        "sha256": "sha256:22061638bf5f3523249302be5a5664c0b00427e4d8a049048b9e6e00c49c0741",
+        "bytes": 11620
+      },
+      {
+        "path": "dist/cjs/conditional-write.d.ts.map",
+        "sha256": "sha256:7c065a0c64ba275c9850fdce43d66de7b5a0537304e9f0bc73ee0c4abd42269a",
+        "bytes": 3124
+      },
+      {
+        "path": "dist/cjs/conditional-write.js",
+        "sha256": "sha256:e690496ad99ca1f02d7ae6c6326bb74283720cdba19a419196874c0172b73240",
+        "bytes": 8651
+      },
+      {
+        "path": "dist/cjs/conditional-write.js.map",
+        "sha256": "sha256:5a688deac0f21dda01ce20ef1fb31b1a8c2f4293f65a6d38f1edce12d4001a71",
+        "bytes": 4276
+      },
+      {
+        "path": "dist/cjs/coverage-attestation.d.ts",
+        "sha256": "sha256:37f7cf01b9a53d97f169e383a1d586da323586b25f6ae8c240e4d807d957e353",
+        "bytes": 1524
+      },
+      {
+        "path": "dist/cjs/coverage-attestation.d.ts.map",
+        "sha256": "sha256:b30cf2927f11604bf5bcd2574877e002e0cf4d2587a307ad9463d37f35241b53",
+        "bytes": 999
+      },
+      {
+        "path": "dist/cjs/coverage-attestation.js",
+        "sha256": "sha256:d898d34345c56089f0f83a9db6644c7671e8932caee64a4a18201496fffae1d9",
+        "bytes": 6740
+      },
+      {
+        "path": "dist/cjs/coverage-attestation.js.map",
+        "sha256": "sha256:001fe9939f1ec7d9e76d214294c71394fad34a0b09d71798b2adb28ec66e9311",
+        "bytes": 4293
+      },
+      {
+        "path": "dist/cjs/coverage-observed.d.ts",
+        "sha256": "sha256:812f5eb545ee915acfc66ca70958b5d8d32f5f17f772ff316f702538ef7817a3",
+        "bytes": 1794
+      },
+      {
+        "path": "dist/cjs/coverage-observed.d.ts.map",
+        "sha256": "sha256:2e216f5b10f5735e2389d72a31d4d457585d835f15ec8d01d9c99e12c647af8a",
+        "bytes": 1451
+      },
+      {
+        "path": "dist/cjs/coverage-observed.js",
+        "sha256": "sha256:782bb05e5de50f861f08f1efc5843f1586f953eb655042472553f1a0c9cffee0",
+        "bytes": 4720
+      },
+      {
+        "path": "dist/cjs/coverage-observed.js.map",
+        "sha256": "sha256:d85825ecf2b229d8bd51bc9dcba662302fa35ae38cc7979cac04237a6edcf2fb",
+        "bytes": 3592
+      },
+      {
+        "path": "dist/cjs/coverage-report.d.ts",
+        "sha256": "sha256:7b1f7c92ef33140cbbd630c5531f4d99cd6ddabc02fad3a7557d867b104a81c7",
+        "bytes": 4427
+      },
+      {
+        "path": "dist/cjs/coverage-report.d.ts.map",
+        "sha256": "sha256:843514f18cc3f0a88281cd7e2cdd6010dc96a5e61e569b32944d38639f0c29de",
+        "bytes": 2218
+      },
+      {
+        "path": "dist/cjs/coverage-report.js",
+        "sha256": "sha256:8b24a3559a32fafb7857ffb5d9363b3025b0bd0dee77b5c19dc75ee76cbfd70e",
+        "bytes": 12250
+      },
+      {
+        "path": "dist/cjs/coverage-report.js.map",
+        "sha256": "sha256:67dabe42254349951ff1ddb9c7610be4b46e87793a69bf562d4c261834f98e8a",
+        "bytes": 8546
+      },
+      {
+        "path": "dist/cjs/deny-remedy.d.ts",
+        "sha256": "sha256:92c4afb4289838a352d768edd41c4ff5a66cadf1f9f07bf1334982b1fa721839",
+        "bytes": 3473
+      },
+      {
+        "path": "dist/cjs/deny-remedy.d.ts.map",
+        "sha256": "sha256:12aa90a137394e553d06db2bdb300dff1a7a7f990b8443588a9c391ef5a9b6dd",
+        "bytes": 1105
+      },
+      {
+        "path": "dist/cjs/deny-remedy.js",
+        "sha256": "sha256:54445e560d882e8c82863fd42d28736e0b5db3a852c1936e0ea749868102c2b8",
+        "bytes": 5546
+      },
+      {
+        "path": "dist/cjs/deny-remedy.js.map",
+        "sha256": "sha256:1b363d4f96da24068f2af7b9eb0272e9bcc1e1227a491636d64595102a7caf09",
+        "bytes": 2280
+      },
+      {
+        "path": "dist/cjs/deny-teaching.d.ts",
+        "sha256": "sha256:65bbcf23c1709bc9947f1cac1d39fcce2ad0f21f8120b5bad48b5feaec0feb53",
+        "bytes": 3627
+      },
+      {
+        "path": "dist/cjs/deny-teaching.d.ts.map",
+        "sha256": "sha256:45d87646a625ab9c21a9cbe63a6d98ac68b55628b6d65e998cf927a734bebbcd",
+        "bytes": 793
+      },
+      {
+        "path": "dist/cjs/deny-teaching.js",
+        "sha256": "sha256:3da910e48fc90f8fee43bc2f64ebba5d2c22724f3c63336b252fc06e119eb56a",
+        "bytes": 7116
+      },
+      {
+        "path": "dist/cjs/deny-teaching.js.map",
+        "sha256": "sha256:c8d8eee5e88ca45b350c2e222653573f28f46b01fbdb0b748cd16a9b491ef9ff",
+        "bytes": 2449
+      },
+      {
+        "path": "dist/cjs/deploy-bind.d.ts",
+        "sha256": "sha256:6781e030e87268d532f0cbe50b2039e60807730853556b5bd6f9e093aca39e0c",
+        "bytes": 5836
+      },
+      {
+        "path": "dist/cjs/deploy-bind.d.ts.map",
+        "sha256": "sha256:f46219a2a4f5962a9b06d3e5f64d07853941adc51afdfc6f470dc0ed0275c8dc",
+        "bytes": 1531
+      },
+      {
+        "path": "dist/cjs/deploy-bind.js",
+        "sha256": "sha256:d68a9134f37a1102586042810756bab1a78911e628240e043bb6fa864ef55f04",
+        "bytes": 5144
+      },
+      {
+        "path": "dist/cjs/deploy-bind.js.map",
+        "sha256": "sha256:74853143eadd34dcc6ede3803126f5b96ae74e1803842c77c9317edbf4ebf64b",
+        "bytes": 2961
+      },
+      {
+        "path": "dist/cjs/deploy-gate.d.ts",
+        "sha256": "sha256:acd9641e119ce543a851d459f685315ca841515a31145a373a5ffa7095625625",
+        "bytes": 11071
+      },
+      {
+        "path": "dist/cjs/deploy-gate.d.ts.map",
+        "sha256": "sha256:9c27d4439f7fd02918d79b1e0d8b3cc9fd632baa7b61bec02c8b82367c169e53",
+        "bytes": 3735
+      },
+      {
+        "path": "dist/cjs/deploy-gate.js",
+        "sha256": "sha256:f0f9b00b956f1a36589f61406527d3d4ed1ae983b8cd3f03117c9c1133abe4ab",
+        "bytes": 13562
+      },
+      {
+        "path": "dist/cjs/deploy-gate.js.map",
+        "sha256": "sha256:dcba0a8e48a6a0c2a3030167f7212bf945890efa6896466a476f8c3e6d110387",
+        "bytes": 8241
+      },
+      {
+        "path": "dist/cjs/deploy-receipt-token.d.ts",
+        "sha256": "sha256:132c8347c91ad0a3aae6e1849e8c8913f9eed4f2ca123f5b780ecb819d4ac332",
+        "bytes": 3192
+      },
+      {
+        "path": "dist/cjs/deploy-receipt-token.d.ts.map",
+        "sha256": "sha256:e436f164b1af96af62f995d3c2ce948e78a84e9c03c9b9e5755375ee3d962229",
+        "bytes": 1675
+      },
+      {
+        "path": "dist/cjs/deploy-receipt-token.js",
+        "sha256": "sha256:1d6b67e2a5d43080b3c44c60154e9c32a78f084855ef2f21beced5bff25628b1",
+        "bytes": 13675
+      },
+      {
+        "path": "dist/cjs/deploy-receipt-token.js.map",
+        "sha256": "sha256:caeec3c2e1cbd76ca75a87f1a4754f431df34579ba2531cd74bb0f76b72bbf7b",
+        "bytes": 11548
+      },
+      {
+        "path": "dist/cjs/detector.d.ts",
+        "sha256": "sha256:e4e428692eddfde282be7eee5fc8b35e4ca37b6387b60fa801a5224622022034",
+        "bytes": 651
+      },
+      {
+        "path": "dist/cjs/detector.d.ts.map",
+        "sha256": "sha256:dfc78a4c3b11260d6cc5253a1920f476326c1a87307a60b6d495bfd92039ccb3",
+        "bytes": 248
+      },
+      {
+        "path": "dist/cjs/detector.js",
+        "sha256": "sha256:11088b05cf4166546add3e7075d01bb051b4c3433858e566f213868f154d8fd8",
+        "bytes": 23368
+      },
+      {
+        "path": "dist/cjs/detector.js.map",
+        "sha256": "sha256:6d858faf7c4aae8f3e3a82acf1b0489bcf9039c78ae598db3eb3b43dc7d8a0d8",
+        "bytes": 19776
+      },
+      {
+        "path": "dist/cjs/enforcement-gate.d.ts",
+        "sha256": "sha256:be40b6f0613b8f2862485f51dd0c402bde908f98ad8cced426e02f0315ec2e8e",
+        "bytes": 4692
+      },
+      {
+        "path": "dist/cjs/enforcement-gate.d.ts.map",
+        "sha256": "sha256:9ae9316e92f54dc546b6d1d028a1efd00a0368edf411ebee65452b11ef77ae7d",
+        "bytes": 970
+      },
+      {
+        "path": "dist/cjs/enforcement-gate.js",
+        "sha256": "sha256:a8c0fad664eee224cc775065cb86a109737dd2cacf66635310aba664c27ddac7",
+        "bytes": 9862
+      },
+      {
+        "path": "dist/cjs/enforcement-gate.js.map",
+        "sha256": "sha256:b8dac5c0f432cb60c85ead31884b19c12bb625e125850c0fcd7b5bfb84c0761b",
+        "bytes": 4581
+      },
+      {
+        "path": "dist/cjs/execute-tool-call.d.ts",
+        "sha256": "sha256:b9b901897fc6f5b7e474d77fbc0ba19115bf67f728056786ff4e3458a46bfbc0",
+        "bytes": 6705
+      },
+      {
+        "path": "dist/cjs/execute-tool-call.d.ts.map",
+        "sha256": "sha256:6c399f74a8e405c93deef69914d07cb8684324ec32c7afa399d2459c8b37fc23",
+        "bytes": 3021
+      },
+      {
+        "path": "dist/cjs/execute-tool-call.js",
+        "sha256": "sha256:145ff38230cba4dfaa444c75fa7324adc2b27d651bcf82d9e28f2e5a89f9e5fc",
+        "bytes": 15612
+      },
+      {
+        "path": "dist/cjs/execute-tool-call.js.map",
+        "sha256": "sha256:f3e42f72755b85c2df0ddd9d6c70f99b3f716a420511be572db564fb4c9e4d7a",
+        "bytes": 10576
+      },
+      {
+        "path": "dist/cjs/execution-grant.d.ts",
+        "sha256": "sha256:42448faa2145defa7de63c9a227ee69005c4777636ab89c31271f61151b515bd",
+        "bytes": 6723
+      },
+      {
+        "path": "dist/cjs/execution-grant.d.ts.map",
+        "sha256": "sha256:703de469211b31cd03c8593239a4bea635cba1ccb390ea0b7907e0f1437202a6",
+        "bytes": 2464
+      },
+      {
+        "path": "dist/cjs/execution-grant.js",
+        "sha256": "sha256:f164e5082b56cf6cfc359b69f9b75f6fbc778bfb3668acda0ff0f055236ad4b9",
+        "bytes": 8434
+      },
+      {
+        "path": "dist/cjs/execution-grant.js.map",
+        "sha256": "sha256:0d9a26a6479f34b740b4caafc03dd5c74513013207bebb976708b738b221dc35",
+        "bytes": 4708
+      },
+      {
+        "path": "dist/cjs/execution-proof.d.ts",
+        "sha256": "sha256:f6d1d611cdebfd9b9c3f45e15b2ea12356f9ee6bf048248048ab3ed4b441b485",
+        "bytes": 10662
+      },
+      {
+        "path": "dist/cjs/execution-proof.d.ts.map",
+        "sha256": "sha256:10d5bde960ca648ede3bec2358c4ca76213922573995cfe8502e046ff442e456",
+        "bytes": 3561
+      },
+      {
+        "path": "dist/cjs/execution-proof.js",
+        "sha256": "sha256:7fd91429b52e026a7e780f38d8fce568a31efcd74b294d657e5ee7e3a1581067",
+        "bytes": 9816
+      },
+      {
+        "path": "dist/cjs/execution-proof.js.map",
+        "sha256": "sha256:2505a68461fa7babafa286e4b66941de214961bfc3ba7a7d837e0aa2ac55a7e1",
+        "bytes": 6813
+      },
+      {
+        "path": "dist/cjs/execution-time-fingerprint.d.ts",
+        "sha256": "sha256:d3f6fc470fc53f7d3c248e8b8fc433a01729eafebd9b77009335aebddceabd9a",
+        "bytes": 3916
+      },
+      {
+        "path": "dist/cjs/execution-time-fingerprint.d.ts.map",
+        "sha256": "sha256:5ef398725ae0cd529606197f5371a0d1b11be1cb08c1a6ce94ca30fa39b09874",
+        "bytes": 1497
+      },
+      {
+        "path": "dist/cjs/execution-time-fingerprint.js",
+        "sha256": "sha256:6c53a4bddb8cef2e480f5c9618e84210f8ebae5679ba449ac365268239f24159",
+        "bytes": 6508
+      },
+      {
+        "path": "dist/cjs/execution-time-fingerprint.js.map",
+        "sha256": "sha256:6fc096c291df648464ef43fe8b2a6cb24e8305c3ba7d33a86de7f57220ae41f1",
+        "bytes": 3940
+      },
+      {
+        "path": "dist/cjs/final-answer-proof.d.ts",
+        "sha256": "sha256:5899689bd8f7b42fe43223414b43544023c8e9b275088761724cf056a7d6bd4c",
+        "bytes": 3757
+      },
+      {
+        "path": "dist/cjs/final-answer-proof.d.ts.map",
+        "sha256": "sha256:8916ee7f8cde45222ee611c7edb89bf8df232909d4ed8892ee3e5bdf9ac49b97",
+        "bytes": 1089
+      },
+      {
+        "path": "dist/cjs/final-answer-proof.js",
+        "sha256": "sha256:6fb16579c356e72bf96f7203f2b98bc2705db0aaf6970cad15643704e10c83dc",
+        "bytes": 15996
+      },
+      {
+        "path": "dist/cjs/final-answer-proof.js.map",
+        "sha256": "sha256:b87e900d48045e0e27de5a72b5d8b33defbdd9f92830809b1d54ec80873c0376",
+        "bytes": 11124
+      },
+      {
+        "path": "dist/cjs/freshness.d.ts",
+        "sha256": "sha256:d73dd82a2ac31c4efb3d7e3b1d13d422eae6dec97fb6b55d62949e0cf4eccbad",
+        "bytes": 13034
+      },
+      {
+        "path": "dist/cjs/freshness.d.ts.map",
+        "sha256": "sha256:53f828b43317dc3a91cce6b1bc3386213e730cd27f7da8ced3a1fa3fce5d01cb",
+        "bytes": 4184
+      },
+      {
+        "path": "dist/cjs/freshness.js",
+        "sha256": "sha256:479f319e98adebb02e94864d63ead511c8929ed716269dd404d11cf0ae0ca5f8",
+        "bytes": 19731
+      },
+      {
+        "path": "dist/cjs/freshness.js.map",
+        "sha256": "sha256:b0f8a11ab3828660cab85fd1ef7580ce4987ac7fc5a8f798dc9bbeff8fe7077f",
+        "bytes": 11464
+      },
+      {
+        "path": "dist/cjs/gate-refusal.d.ts",
+        "sha256": "sha256:4954b524bad99e95a34ed5713cfdd21eba23286cbd1bde2dc24db82fd862078b",
+        "bytes": 920
+      },
+      {
+        "path": "dist/cjs/gate-refusal.d.ts.map",
+        "sha256": "sha256:2c87ff1d65078a72eff3b20e0e2b85577b9191ef5dd8b8025f756d6c066fdb59",
+        "bytes": 580
+      },
+      {
+        "path": "dist/cjs/gate-refusal.js",
+        "sha256": "sha256:7c7a27bced2cb161b215e1221468125d79406066db955a8fe80fcb271c23d898",
+        "bytes": 4575
+      },
+      {
+        "path": "dist/cjs/gate-refusal.js.map",
+        "sha256": "sha256:b7fb075d5919ec279e317b602bd313365f63a7f6692cede8daeda0fbd97d7a8b",
+        "bytes": 2692
+      },
+      {
+        "path": "dist/cjs/guard.d.ts",
+        "sha256": "sha256:0f5001ec71626815c2f4c6be4ff38d3dc07a81679dddc5719385731b68f03849",
+        "bytes": 1374
+      },
+      {
+        "path": "dist/cjs/guard.d.ts.map",
+        "sha256": "sha256:a05e845fdc1d3ecddcec944032ccd6acdee46ce247a59cc57cd98ddaa57b4640",
+        "bytes": 515
+      },
+      {
+        "path": "dist/cjs/guard.js",
+        "sha256": "sha256:787a4aa20c71a0bf09d7699c6112c0b04c219fa6081fef843e4da8ae66326641",
+        "bytes": 57815
+      },
+      {
+        "path": "dist/cjs/guard.js.map",
+        "sha256": "sha256:75bd03763f507b4d59d6e31c0b2fca8ae55ca7505db5320471343a93906075f9",
+        "bytes": 41173
+      },
+      {
+        "path": "dist/cjs/index.d.ts",
+        "sha256": "sha256:b750c89fb07b61f3b7bb2fc43ace04930ff3ef2877fef7d90a589af2989e2eb1",
+        "bytes": 16439
+      },
+      {
+        "path": "dist/cjs/index.d.ts.map",
+        "sha256": "sha256:11225282ce22134a8b9da15b8e8d76868d1e82d0a7bdb12bb3d5c04e3309fc2f",
+        "bytes": 9589
+      },
+      {
+        "path": "dist/cjs/index.js",
+        "sha256": "sha256:1e4c0396d4ad70a73d528b66a091805a8be8cf63b8a902d04181e6d660af14c6",
+        "bytes": 54724
+      },
+      {
+        "path": "dist/cjs/index.js.map",
+        "sha256": "sha256:04df491d774c9e1f5934961831e07c36aa8bde7abcb6284e58d494dd96fdfebf",
+        "bytes": 7394
+      },
+      {
+        "path": "dist/cjs/merge-gate.d.ts",
+        "sha256": "sha256:1d086509ebf59657e4d56b19a768a154c424f605c02282903b4076ae2495eb55",
+        "bytes": 6181
+      },
+      {
+        "path": "dist/cjs/merge-gate.d.ts.map",
+        "sha256": "sha256:af245e1a132311969790b708e99e797bcce400557aa016553f9d6b32bbe7f403",
+        "bytes": 2289
+      },
+      {
+        "path": "dist/cjs/merge-gate.js",
+        "sha256": "sha256:7f183753a1af8ec7f9a7743d2853763d4278d0995a38e92eee7987b47519b5c1",
+        "bytes": 8205
+      },
+      {
+        "path": "dist/cjs/merge-gate.js.map",
+        "sha256": "sha256:fc65a2b8ca8d8d71ff4f91c8bf21b82ec83ba6762823244881f1fb7e07ac909b",
+        "bytes": 5426
+      },
+      {
+        "path": "dist/cjs/monitoring-attestation.d.ts",
+        "sha256": "sha256:15013e02915e59bcef9e4ce07d441e86f0e0121116e833f0fbaa49856cb0f031",
+        "bytes": 1478
+      },
+      {
+        "path": "dist/cjs/monitoring-attestation.d.ts.map",
+        "sha256": "sha256:5c17109493ee02cbd2e1b4951a964b6e30f756946d9957849044f0e15a72d205",
+        "bytes": 1012
+      },
+      {
+        "path": "dist/cjs/monitoring-attestation.js",
+        "sha256": "sha256:cca8735984d377c4daa1154650f98235e5713639dd37cf8bcc63c60e51728a6a",
+        "bytes": 4838
+      },
+      {
+        "path": "dist/cjs/monitoring-attestation.js.map",
+        "sha256": "sha256:7b5abee0ddf0770e1f72e9465f07b4207c1bf5bc75311a3028c706c55f5cfe6a",
+        "bytes": 4200
+      },
+      {
+        "path": "dist/cjs/monitoring-delivery.d.ts",
+        "sha256": "sha256:360b616691e3fc1869195b9a6db4cd019111138f854508b26ffd9243e0e5c775",
+        "bytes": 2377
+      },
+      {
+        "path": "dist/cjs/monitoring-delivery.d.ts.map",
+        "sha256": "sha256:1fcc2bc209f98797a993fdcff4c59e49e497e09ea34f1d8cbc828592708f87f6",
+        "bytes": 2185
+      },
+      {
+        "path": "dist/cjs/monitoring-delivery.js",
+        "sha256": "sha256:23818185ae9452b2477f464b1f20e51b4fdbe3d00bb3ff998c7f1a05718ecee0",
+        "bytes": 10488
+      },
+      {
+        "path": "dist/cjs/monitoring-delivery.js.map",
+        "sha256": "sha256:32e44225fd76aebd2a93f88fd63dbd51245fb98dac0f18760fd36a02feda9469",
+        "bytes": 10074
+      },
+      {
+        "path": "dist/cjs/next-agent-step.d.ts",
+        "sha256": "sha256:5f438df232e7cc37b5164db96dc8db37647401e7cb502def7e7815477cdd3cca",
+        "bytes": 2726
+      },
+      {
+        "path": "dist/cjs/next-agent-step.d.ts.map",
+        "sha256": "sha256:fc53e6eb54e3f2e7894bd90c2c0e1fef2ecda68acfdf44f04d242c9a2d17fb8f",
+        "bytes": 576
+      },
+      {
+        "path": "dist/cjs/next-agent-step.js",
+        "sha256": "sha256:89443a3b0a5f6ef3e811e97f0a24a2f5ea5ee14bf01a91e4ccab7d7ff739ee45",
+        "bytes": 2646
+      },
+      {
+        "path": "dist/cjs/next-agent-step.js.map",
+        "sha256": "sha256:8d5857f8a6aeaa08080289c5755611f1dd532beaf8394165a8ed3428746233e9",
+        "bytes": 734
+      },
+      {
+        "path": "dist/cjs/offline-verify.d.ts",
+        "sha256": "sha256:0c3972489908cde116ea46adcddc2cfd3a35258c131fa5035a272c6604246e4b",
+        "bytes": 4019
+      },
+      {
+        "path": "dist/cjs/offline-verify.d.ts.map",
+        "sha256": "sha256:390d9697f0fbdee463799841e180d2b3dc20862fcd65e126f6470f7b74bfa862",
+        "bytes": 806
+      },
+      {
+        "path": "dist/cjs/offline-verify.js",
+        "sha256": "sha256:2f3b335227290469e7e48501d40724f5b543486d5eb11a90f8df3580aa663aec",
+        "bytes": 4191
+      },
+      {
+        "path": "dist/cjs/offline-verify.js.map",
+        "sha256": "sha256:c7aea67b8ff6df0f44388e25ed1ea0c244082280929a380acfb56a360e6035f7",
+        "bytes": 1123
+      },
+      {
+        "path": "dist/cjs/package.json",
+        "sha256": "sha256:dbf8353f77358bc12169b7bb7301e1978d5b503e002ee927229a8993672818fc",
+        "bytes": 20
+      },
+      {
+        "path": "dist/cjs/policy.d.ts",
+        "sha256": "sha256:bd0e0b6d44a13bb30d19c5903930e666b3312ed293287da2d0132b9e64625a36",
+        "bytes": 3032
+      },
+      {
+        "path": "dist/cjs/policy.d.ts.map",
+        "sha256": "sha256:e11a4bd87013ca89efb26c681aaaeeb0461e547d7efc09d7e3b1be8ae556e2ad",
+        "bytes": 1126
+      },
+      {
+        "path": "dist/cjs/policy.js",
+        "sha256": "sha256:896d379a3dcfa5d0821353b66df38484f6172c6a158b3e374f1de11b82784da0",
+        "bytes": 9541
+      },
+      {
+        "path": "dist/cjs/policy.js.map",
+        "sha256": "sha256:ee79f810920948fdfc6214182f46d3f7471a19d0d18e20c1819e7961b63e9ac2",
+        "bytes": 2971
+      },
+      {
+        "path": "dist/cjs/posture-receipt.d.ts",
+        "sha256": "sha256:94747ee2cb236a6f4625c734faa4536ae3ce41792e29472154fefc7703b41297",
+        "bytes": 5365
+      },
+      {
+        "path": "dist/cjs/posture-receipt.d.ts.map",
+        "sha256": "sha256:48cbe8412e719ba950eb1ae0888fa7d9abedc5ddd0f792503ed881537afbf849",
+        "bytes": 1688
+      },
+      {
+        "path": "dist/cjs/posture-receipt.js",
+        "sha256": "sha256:e3723759acbdeede4be111c0bdd5693073c56df92f5633c2575289a5c8985375",
+        "bytes": 10362
+      },
+      {
+        "path": "dist/cjs/posture-receipt.js.map",
+        "sha256": "sha256:afbd89f033fc9702edc7241335adc1a4600a2538f4bc9923b157eb783817936e",
+        "bytes": 6657
+      },
+      {
+        "path": "dist/cjs/read-decision.d.ts",
+        "sha256": "sha256:1f0e74594d99111177a407e101551d06c2c2b7b430a61d168b3ae0ff4f31f729",
+        "bytes": 2776
+      },
+      {
+        "path": "dist/cjs/read-decision.d.ts.map",
+        "sha256": "sha256:910ba39cc8a45f1d29783a0180ff639029c09b9eff4d01c72d30ec0017ff8684",
+        "bytes": 952
+      },
+      {
+        "path": "dist/cjs/read-decision.js",
+        "sha256": "sha256:1b7e8a76317a22624dd4dd5709fa5e837e43af5d04261d0fed9a80bf505439dc",
+        "bytes": 7374
+      },
+      {
+        "path": "dist/cjs/read-decision.js.map",
+        "sha256": "sha256:be960617aa1f074d5ec8813aa094038ba772b96a3446939790d0a0f34217c5d7",
+        "bytes": 4747
+      },
+      {
+        "path": "dist/cjs/receipt-binding.d.ts",
+        "sha256": "sha256:9ff848c88e81f0affb7327091fc4556b033d99da1049b3d948d1a3b3ab822035",
+        "bytes": 3457
+      },
+      {
+        "path": "dist/cjs/receipt-binding.d.ts.map",
+        "sha256": "sha256:302a89cbc4bfd6502ef312b95b4c7d0843a06af1894d97640489b42183edde2a",
+        "bytes": 989
+      },
+      {
+        "path": "dist/cjs/receipt-binding.js",
+        "sha256": "sha256:e77e4c3d6803551e9ddca289e4e4300c47e5db8a148f32601ed6381ae7ff0881",
+        "bytes": 6212
+      },
+      {
+        "path": "dist/cjs/receipt-binding.js.map",
+        "sha256": "sha256:db1ffddb030309fa54c9d98f0a9bab19dc7ca1ff3a4c7e20d5a13d2ed9453c8e",
+        "bytes": 3577
+      },
+      {
+        "path": "dist/cjs/receipt-chain.d.ts",
+        "sha256": "sha256:6b830fa51ae78e04ba422509ebd08c8aa5121a430aadc3b0f1a2868f074583db",
+        "bytes": 2282
+      },
+      {
+        "path": "dist/cjs/receipt-chain.d.ts.map",
+        "sha256": "sha256:7c213504f74c2d4b4782beefd37a4ccdf083b6b5dc1c72c5ed2559dce4b5960f",
+        "bytes": 824
+      },
+      {
+        "path": "dist/cjs/receipt-chain.js",
+        "sha256": "sha256:70d87857bf7fd83640905d5f268e720508825734e1ff70fe757c970fd58a0dcf",
+        "bytes": 3981
+      },
+      {
+        "path": "dist/cjs/receipt-chain.js.map",
+        "sha256": "sha256:d3b8c378840e3b0c731753c81a3dbe24cbf1adeaf7b0b358263d0d2ec3df49f8",
+        "bytes": 2181
+      },
+      {
+        "path": "dist/cjs/remediation-loop-attestation.d.ts",
+        "sha256": "sha256:5af308e0b6bdc0cd99bda41941806a13c3496166775e0c61512c994849b6f087",
+        "bytes": 5960
+      },
+      {
+        "path": "dist/cjs/remediation-loop-attestation.d.ts.map",
+        "sha256": "sha256:fed6d7570dfb9ba6592ecb7ce49666fd09be39b66a776229d141405b8024d6d7",
+        "bytes": 2234
+      },
+      {
+        "path": "dist/cjs/remediation-loop-attestation.js",
+        "sha256": "sha256:0782fe96ee8b90e09e9daf3f7983746012cd8c47bd00a249a4eda1143a02d2d3",
+        "bytes": 8795
+      },
+      {
+        "path": "dist/cjs/remediation-loop-attestation.js.map",
+        "sha256": "sha256:6c8f7fcabaee400cef40d1b52d2dd9914907326c30c5f0c3309ba993e5fdae37",
+        "bytes": 4826
+      },
+      {
+        "path": "dist/cjs/resolver-glob.d.ts",
+        "sha256": "sha256:818049052af16cd811becbe823d431a9f01633131ce5a07068a503eaab7cd1aa",
+        "bytes": 1028
+      },
+      {
+        "path": "dist/cjs/resolver-glob.d.ts.map",
+        "sha256": "sha256:bc9f8f842c521063bd523c68c8cfd372d371ac17c86cc0798694853b8b37475a",
+        "bytes": 491
+      },
+      {
+        "path": "dist/cjs/resolver-glob.js",
+        "sha256": "sha256:f2db4ed5a72963c313f879f2d8dd4c73540f3fab402c79828e229c2b4d9aad4a",
+        "bytes": 2142
+      },
+      {
+        "path": "dist/cjs/resolver-glob.js.map",
+        "sha256": "sha256:ce8c329fe90bc43532e4256ed824ee4e4b5b9f257650401d9d4e193b2425889c",
+        "bytes": 1769
+      },
+      {
+        "path": "dist/cjs/resolver-yaml.d.ts",
+        "sha256": "sha256:dba5ad91658174ff8809e2841ac181cc0808ef38339e9e8d358f4f70b3f93661",
+        "bytes": 1204
+      },
+      {
+        "path": "dist/cjs/resolver-yaml.d.ts.map",
+        "sha256": "sha256:2a16dd5c10d3af27d0d4e3f2846f4b1d045e80f8963ae4b8ea2b27f2d2217c89",
+        "bytes": 329
+      },
+      {
+        "path": "dist/cjs/resolver-yaml.js",
+        "sha256": "sha256:0142b1e79f4d7ba807f8500990293d1a2cea4801293138b749af5bea954447d3",
+        "bytes": 7450
+      },
+      {
+        "path": "dist/cjs/resolver-yaml.js.map",
+        "sha256": "sha256:8acebff1062b8869847b14cd8bece0bbe391a39461cf5a2f145b973194042b0b",
+        "bytes": 9131
+      },
+      {
+        "path": "dist/cjs/session-taint.d.ts",
+        "sha256": "sha256:d31043759cea8161ebeff2a1ce1c474bedb508070e3aa3f5c31e858a0972d52c",
+        "bytes": 3763
+      },
+      {
+        "path": "dist/cjs/session-taint.d.ts.map",
+        "sha256": "sha256:b0d76dbbd6eb5312415dcdd0496006e24f3378d9a0446c39bb231d2cb38688cb",
+        "bytes": 2820
+      },
+      {
+        "path": "dist/cjs/session-taint.js",
+        "sha256": "sha256:7a169f54fa3d5b48a51995a6df9594ae1e801936e76ecc898c3f83074465effb",
+        "bytes": 16061
+      },
+      {
+        "path": "dist/cjs/session-taint.js.map",
+        "sha256": "sha256:508d389e253afa9701748dd6ad56f26dd38fde23817faea2c1b0ebf9a12514ba",
+        "bytes": 13478
+      },
+      {
+        "path": "dist/cjs/tool-registry.d.ts",
+        "sha256": "sha256:82cd697c5f4f736bbd7ef1b160886f8d5f082ba7b601ffeaeb347105a86752ba",
+        "bytes": 4370
+      },
+      {
+        "path": "dist/cjs/tool-registry.d.ts.map",
+        "sha256": "sha256:8f6ad86a07ad965dfc39850ecf62d3121f05cc4bfa515b45a7f0738f9f968cfa",
+        "bytes": 2593
+      },
+      {
+        "path": "dist/cjs/tool-registry.js",
+        "sha256": "sha256:ff6db75ddd687a09b45c64089f22f0ffe49735d9e1c2ed0cd63b35661bb07b77",
+        "bytes": 20429
+      },
+      {
+        "path": "dist/cjs/tool-registry.js.map",
+        "sha256": "sha256:c66a59f12bf53c3cb519a27df701317349574e2713d74250be9849bc4e5e9498",
+        "bytes": 13902
+      },
+      {
+        "path": "dist/cjs/toolset-attestation.d.ts",
+        "sha256": "sha256:833d5e22fcf8beafcb34444ffab4cb3edf8cf0e3f23b0db74a31dd8d168fbee3",
+        "bytes": 3089
+      },
+      {
+        "path": "dist/cjs/toolset-attestation.d.ts.map",
+        "sha256": "sha256:0584b1f5c92766933e8816698200e70c39834f7570730a27791bd2b3a0718876",
+        "bytes": 1691
+      },
+      {
+        "path": "dist/cjs/toolset-attestation.js",
+        "sha256": "sha256:5a55b3a64e0f013932d930d3325d7baae65486b33acbfbafaa44c7a00236ce22",
+        "bytes": 11179
+      },
+      {
+        "path": "dist/cjs/toolset-attestation.js.map",
+        "sha256": "sha256:7c69b6f7d0fef723acb85772ba2bf18375c9645a9598842bcbb7659a07c3f21d",
+        "bytes": 8401
+      },
+      {
+        "path": "dist/cjs/types.d.ts",
+        "sha256": "sha256:8a14f0253a152c78e4c2ca7744c5f3319646bf0b7ee881de4b4d1005fb1d44a6",
+        "bytes": 25016
+      },
+      {
+        "path": "dist/cjs/types.d.ts.map",
+        "sha256": "sha256:6865dcc72319fed46730e0914c8b6aaa1ce931410a2b380966d166ee2e8ebbfa",
+        "bytes": 10195
+      },
+      {
+        "path": "dist/cjs/types.js",
+        "sha256": "sha256:b2c29253bb3300027904d36c9caf8dedabae53784bf75844eb1082bad3c658ce",
+        "bytes": 851
+      },
+      {
+        "path": "dist/cjs/types.js.map",
+        "sha256": "sha256:7f1be49e6251139e879dd6c8700ea1e6f8c9b1fefb7b02a5714e10de3cc59646",
+        "bytes": 124
+      },
+      {
+        "path": "dist/cjs/unguarded-mutation.d.ts",
+        "sha256": "sha256:9da1d24d29793cac4c210b3f8229116f03ab486af6bc9ccf7f07228dd879d32c",
+        "bytes": 5624
+      },
+      {
+        "path": "dist/cjs/unguarded-mutation.d.ts.map",
+        "sha256": "sha256:03cf23261081cae1098a73817bb94144ed27dc4565aa87a6a66e164486b7c7a7",
+        "bytes": 769
+      },
+      {
+        "path": "dist/cjs/unguarded-mutation.js",
+        "sha256": "sha256:5a06bfd45bc9a09578f8a0d80d434cfc3571362e7d1d772d1b2777b28619ca98",
+        "bytes": 6950
+      },
+      {
+        "path": "dist/cjs/unguarded-mutation.js.map",
+        "sha256": "sha256:35f81ddab8d10e5af83807e3c3057905bd7f4ed1151c9f9c983c08f8c9944164",
+        "bytes": 1283
+      },
+      {
+        "path": "dist/cjs/vendor/arity.js",
+        "sha256": "sha256:721fcac58b960b5e2aa1af91edb6cfc87ebe828a6da73879967ef79a1ca474e8",
+        "bytes": 1849
+      },
+      {
+        "path": "dist/cjs/vendor/evidence-root.js",
+        "sha256": "sha256:4d5476fc44bbfc2a847feeb313a1c6c08ef7fd832a2348ef3c244bd8d3f03fcd",
+        "bytes": 8559
+      },
+      {
+        "path": "dist/cjs/vendor/keys/coderifts-keys.json",
+        "sha256": "sha256:bfe0c898cda3c3a4c8141726d0adb4cdb7eb9762de6264e430eff6469b90422e",
+        "bytes": 221
+      },
+      {
+        "path": "dist/cjs/vendor/VENDOR.sha256",
+        "sha256": "sha256:5b9999d4664372d22a92d70ed246654f4e151df23bb70a625dbad7651c823634",
+        "bytes": 4876
+      },
+      {
+        "path": "dist/cjs/vendor/verified-execution-binding.js",
+        "sha256": "sha256:9d0259e916f2bcd32029744c3e9ec81448bcefa46e6ad3f054c8a650dc0482b7",
+        "bytes": 29188
+      },
+      {
+        "path": "dist/cjs/vendor/verify-evidence.js",
+        "sha256": "sha256:98cd9b989a25095e0442f91f68a1adecd6e6a2a5b05902bf2580b8cba973c5e2",
+        "bytes": 19430
+      },
+      {
+        "path": "dist/cjs/vendor/verify-grant.js",
+        "sha256": "sha256:4a0ad5bd7bb8282e086bea99dcaf8ca278370d80019c5681d2942bf11bc87504",
+        "bytes": 26414
+      },
+      {
+        "path": "dist/cjs/vendor/verify-prove-transcript.js",
+        "sha256": "sha256:3bb17bd4f16d5ee3cf3fbb754b4df9aa570a615ca94ff2a97b751c4fabd3bd0d",
+        "bytes": 2931
+      },
+      {
+        "path": "dist/cjs/vendor/verify.js",
+        "sha256": "sha256:348d3f851cd79bf63298b51da422d11be980820576ab0bf0a2990b9f007d6249",
+        "bytes": 20636
+      },
+      {
+        "path": "dist/cjs/with-coderifts.d.ts",
+        "sha256": "sha256:bcf1185aa7625582fb6de8c8609121866b7bcd8dfee605aabb6f69dd2d09059a",
+        "bytes": 25679
+      },
+      {
+        "path": "dist/cjs/with-coderifts.d.ts.map",
+        "sha256": "sha256:4e00718edf25ff009992ac2286d521707a1b87d7a0fa63be4de938b3a5aa9711",
+        "bytes": 5410
+      },
+      {
+        "path": "dist/cjs/with-coderifts.js",
+        "sha256": "sha256:e7dffa9c0558c9b291d91e09915eee6009a08368669b6bce84f68e04584e7fc5",
+        "bytes": 42642
+      },
+      {
+        "path": "dist/cjs/with-coderifts.js.map",
+        "sha256": "sha256:0f3cca84770dde9ab0838f0e8c1a26ed1e2105d43985e4c6d9cb783f65055878",
+        "bytes": 18414
+      },
+      {
+        "path": "dist/esm/adapters/anthropic.d.ts",
+        "sha256": "sha256:05374b0e288ed40db461cdc51afbf91ed8a7908e6468e207a768cd778d595d56",
+        "bytes": 5983
+      },
+      {
+        "path": "dist/esm/adapters/anthropic.d.ts.map",
+        "sha256": "sha256:f69af773fd76c0fe2ec3b104b65ae37f3d0fc7e2082ecaba66169b1b6c228041",
+        "bytes": 1866
+      },
+      {
+        "path": "dist/esm/adapters/anthropic.js",
+        "sha256": "sha256:70e0800c4c1d642a311e0dbee6712cc41cca3cd48725d1d7526a8d1d8a8c00ac",
+        "bytes": 5416
+      },
+      {
+        "path": "dist/esm/adapters/anthropic.js.map",
+        "sha256": "sha256:99e27f5c5ed6bdc1f6b1a098d355c74ab2045f95050a5b65acfa42fb31d67a5e",
+        "bytes": 2864
+      },
+      {
+        "path": "dist/esm/adapters/crewai.d.ts",
+        "sha256": "sha256:42924a7a6166f4c914b85c965ce24e064ed05c2c3d935343a82b0f80a837c488",
+        "bytes": 4187
+      },
+      {
+        "path": "dist/esm/adapters/crewai.d.ts.map",
+        "sha256": "sha256:7985c13a72ce4ee70946e203e3013a851264607150f1f2596921141b1bb77e38",
+        "bytes": 1006
+      },
+      {
+        "path": "dist/esm/adapters/crewai.js",
+        "sha256": "sha256:70742daf247abda010a7dfaa5056b75e76771b7024d6286b30a8e30532c8ce05",
+        "bytes": 4128
+      },
+      {
+        "path": "dist/esm/adapters/crewai.js.map",
+        "sha256": "sha256:7fa2a8afa1198e816d0b837819a7cdad9bc6213f289952b9f1ddf04e9e5c4741",
+        "bytes": 1667
+      },
+      {
+        "path": "dist/esm/adapters/gemini.d.ts",
+        "sha256": "sha256:aacb06977c24a22cb30d814ed30196d619f89f10d012abd1ebc5aaa55311422d",
+        "bytes": 7325
+      },
+      {
+        "path": "dist/esm/adapters/gemini.d.ts.map",
+        "sha256": "sha256:05ba46457242d743504de22e28906d54d262fb606075e37fd35dce47d8b6cef0",
+        "bytes": 2008
+      },
+      {
+        "path": "dist/esm/adapters/gemini.js",
+        "sha256": "sha256:29736ccceb78657f97f93ddaeb384082b4c7399ae68af09ab750590841a0e70a",
+        "bytes": 6479
+      },
+      {
+        "path": "dist/esm/adapters/gemini.js.map",
+        "sha256": "sha256:ce262b0f9aa354480f1a5523bdcd0ab2cb841a3ff8b9a9aac1f4390366e61f50",
+        "bytes": 3167
+      },
+      {
+        "path": "dist/esm/adapters/langchain.d.ts",
+        "sha256": "sha256:8ff076cc819c26a0fcc31936302e5818f8a3595f3c72b5ccf18966de36d0c200",
+        "bytes": 4623
+      },
+      {
+        "path": "dist/esm/adapters/langchain.d.ts.map",
+        "sha256": "sha256:e35ba4a4faf50be1f26b5e48949d7f1dcae8191d776b69f3546808d12705cc4a",
+        "bytes": 1321
+      },
+      {
+        "path": "dist/esm/adapters/langchain.js",
+        "sha256": "sha256:49075768a8fac0111cd0ac5fe72e619a21698b126c1de51f20357e138ae98caa",
+        "bytes": 4073
+      },
+      {
+        "path": "dist/esm/adapters/langchain.js.map",
+        "sha256": "sha256:9f3194d285928cc66aeeaf34d8c04f91379b4bb78bb6d54b39652f84667119d9",
+        "bytes": 1858
+      },
+      {
+        "path": "dist/esm/adapters/langgraph.d.ts",
+        "sha256": "sha256:f7f0430f0b89868dc59e7ba6e12bc141f615df66771ffa2fc1fb12f23435ca3a",
+        "bytes": 9184
+      },
+      {
+        "path": "dist/esm/adapters/langgraph.d.ts.map",
+        "sha256": "sha256:ad27eec49c45c948fd383ed175ee1aae8ba2416436fad49625eb7abb691c150f",
+        "bytes": 2412
+      },
+      {
+        "path": "dist/esm/adapters/langgraph.js",
+        "sha256": "sha256:36b6d7b41770594e82471c2eb1320bf1f2b8244b458df3b10d4bb3ed6c56e47b",
+        "bytes": 9395
+      },
+      {
+        "path": "dist/esm/adapters/langgraph.js.map",
+        "sha256": "sha256:f25679edd8bf87857563a680a062b576d8ffb32067be3e698bc252a22880e013",
+        "bytes": 4605
+      },
+      {
+        "path": "dist/esm/adapters/openai.d.ts",
+        "sha256": "sha256:d6ab10371e619e3df89c7d9407842dec8ef3bb44838dedea39fc48a2a70c33f1",
+        "bytes": 6838
+      },
+      {
+        "path": "dist/esm/adapters/openai.d.ts.map",
+        "sha256": "sha256:5622d75ced31ab2dd7c0b6e2c30beca27850efd4838db558cdf6980e620018cc",
+        "bytes": 1962
+      },
+      {
+        "path": "dist/esm/adapters/openai.js",
+        "sha256": "sha256:66cb302fa28d1c8b49697eef5443b18db69c0fe8f2c3aed23ea0304b3fbdd38d",
+        "bytes": 6365
+      },
+      {
+        "path": "dist/esm/adapters/openai.js.map",
+        "sha256": "sha256:2326a805f8022784c43e67b76eba69997ec13c5ba942a8b6e2eadbec08962529",
+        "bytes": 3010
+      },
+      {
+        "path": "dist/esm/adapters/vercel.d.ts",
+        "sha256": "sha256:1d1b994bda7519acc98cfa6abf5b25d73a79bd30f00c7eee0ebf6aa9dcf295f4",
+        "bytes": 7009
+      },
+      {
+        "path": "dist/esm/adapters/vercel.d.ts.map",
+        "sha256": "sha256:54dd9fee6c619606e58720ff65a5f8767e7e60e5138fb24a85b18f0dae76dffc",
+        "bytes": 2214
+      },
+      {
+        "path": "dist/esm/adapters/vercel.js",
+        "sha256": "sha256:83f7ac61fdbe08842a04b10df8fa5aec17f3e5358745a14a4e69de422f7d2f28",
+        "bytes": 8795
+      },
+      {
+        "path": "dist/esm/adapters/vercel.js.map",
+        "sha256": "sha256:1a9481fd5223c2f938db57ad51e135422a9f04d42922565942b4a07fb278f4c9",
+        "bytes": 5274
+      },
+      {
+        "path": "dist/esm/artifact-resolver.d.ts",
+        "sha256": "sha256:35b4d61bee0d36e597af7f5be2417ae81377a9e7537894116c3bebf85f0be7ab",
+        "bytes": 3819
+      },
+      {
+        "path": "dist/esm/artifact-resolver.d.ts.map",
+        "sha256": "sha256:fa6a7129746d2f49ffcea17368e00424303fd30af66217ea93901f7147c35daa",
+        "bytes": 2242
+      },
+      {
+        "path": "dist/esm/artifact-resolver.js",
+        "sha256": "sha256:7442c89baa0412f8901a3b6aadf8fa6f677f142c4a703522a565041ab646e8de",
+        "bytes": 19366
+      },
+      {
+        "path": "dist/esm/artifact-resolver.js.map",
+        "sha256": "sha256:30bb773151590da3d4e965c91d3112dd6ff2ae1b04959b564e4f16ab970426b5",
+        "bytes": 20165
+      },
+      {
+        "path": "dist/esm/atomic-profile.d.ts",
+        "sha256": "sha256:05ae72e231fdfe654fc8785e23068b89fb2cfbade7fe8a2e13dcee9d086de5f3",
+        "bytes": 5970
+      },
+      {
+        "path": "dist/esm/atomic-profile.d.ts.map",
+        "sha256": "sha256:ce96cd013f5a12861436d41ee1fa65e9a9a725a09520d3fa76ca05d9f208ddae",
+        "bytes": 2387
+      },
+      {
+        "path": "dist/esm/atomic-profile.js",
+        "sha256": "sha256:8934913d319a9a7d561d102d665714dd2f58d1a92db61d8d68f35986a7af2118",
+        "bytes": 11876
+      },
+      {
+        "path": "dist/esm/atomic-profile.js.map",
+        "sha256": "sha256:b9463cc5f62f9bf89fe9edab5cd3f962ed661023ac469ba84fdb6cf407e1b891",
+        "bytes": 5906
+      },
+      {
+        "path": "dist/esm/auto-derive.d.ts",
+        "sha256": "sha256:d3e7bf11135cafb6258a7bf66c01d18c79ebfcdf665961c9e95b15804d07be48",
+        "bytes": 3127
+      },
+      {
+        "path": "dist/esm/auto-derive.d.ts.map",
+        "sha256": "sha256:b575e240412f5f5f884e0f7ca11a6d2bb781c5fad18334b0841c1dcdc75574f6",
+        "bytes": 2106
+      },
+      {
+        "path": "dist/esm/auto-derive.js",
+        "sha256": "sha256:de72b26c86a5a8fe7ba29d5f02cfd4b40b62ce59fe30dcedac5685373c350c9b",
+        "bytes": 8742
+      },
+      {
+        "path": "dist/esm/auto-derive.js.map",
+        "sha256": "sha256:6d5453201d19d398bca93dc843e43030b6f32b957e49693441d2ce20038ea2f4",
+        "bytes": 8892
+      },
+      {
+        "path": "dist/esm/auto-recheck.d.ts",
+        "sha256": "sha256:218770047f9791a50333f8ab86a2770dfb3b062c4846b4212192c53c45c98c06",
+        "bytes": 3554
+      },
+      {
+        "path": "dist/esm/auto-recheck.d.ts.map",
+        "sha256": "sha256:97392c07ef9f384774d904ce70318ecb0f185feaa29ed711803f73f13ea74f8c",
+        "bytes": 1884
+      },
+      {
+        "path": "dist/esm/auto-recheck.js",
+        "sha256": "sha256:cc00bf74113baa669fe7fed7fb42b2278385601ffc786c6bf6d86f7113dfd0c6",
+        "bytes": 9012
+      },
+      {
+        "path": "dist/esm/auto-recheck.js.map",
+        "sha256": "sha256:8c732623a54e8320079fd6b231a735a3669f28afc524db139084b52032897132",
+        "bytes": 8263
+      },
+      {
+        "path": "dist/esm/cas-adapters/api.d.ts",
+        "sha256": "sha256:41b24b7d66426911fb2d109c3b028b04def23b5c268c14c8abe2cf5eafd237f1",
+        "bytes": 4626
+      },
+      {
+        "path": "dist/esm/cas-adapters/api.d.ts.map",
+        "sha256": "sha256:105fcac8a49294fe3536ad68cdcccb7c3ec40da5181a3cc1d02e6339f0db06b4",
+        "bytes": 1527
+      },
+      {
+        "path": "dist/esm/cas-adapters/api.js",
+        "sha256": "sha256:89f1a66b8b5c6b27df3a5e4df1ea717dd7e6df66ca716373593655e6532ff023",
+        "bytes": 5329
+      },
+      {
+        "path": "dist/esm/cas-adapters/api.js.map",
+        "sha256": "sha256:988e8a8be92cf9a1fc2b3aa35436db9dc1b819f7d9cc9b514e6ea7a7616728ac",
+        "bytes": 2897
+      },
+      {
+        "path": "dist/esm/cas-adapters/db.d.ts",
+        "sha256": "sha256:88cf305277582f9c95bc27609bcdd768774245fa971db9806f65c272e0b916ad",
+        "bytes": 4485
+      },
+      {
+        "path": "dist/esm/cas-adapters/db.d.ts.map",
+        "sha256": "sha256:24a8dbaeb32ca1a8172078dce4c771881fefa9c576d5a7e381f53e1f0cae628f",
+        "bytes": 1799
+      },
+      {
+        "path": "dist/esm/cas-adapters/db.js",
+        "sha256": "sha256:001c4fd46b40d908be8f536dd38ef9c611d87b68b8c06f23ff5fdf3344a34743",
+        "bytes": 5514
+      },
+      {
+        "path": "dist/esm/cas-adapters/db.js.map",
+        "sha256": "sha256:e0d2d1033b6d7a0b095aa71582f5f8b5bee629d7c97d438aa4be1f14bd5fcfd6",
+        "bytes": 3289
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs-default-wire.d.ts",
+        "sha256": "sha256:eb68a361c0220168bbce4814976c963e94956dcf25c1e8b7c44f53e2b15a7b51",
+        "bytes": 3372
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs-default-wire.d.ts.map",
+        "sha256": "sha256:551e9fb703b1a58a356f8f8ed453c6d891e6de0188971a42781a97d9d63ccb7d",
+        "bytes": 1123
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs-default-wire.js",
+        "sha256": "sha256:9dba3304d31da973fdc5a166420b99f3d48bff7c3744f2f27c36b644d7094cb2",
+        "bytes": 4971
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs-default-wire.js.map",
+        "sha256": "sha256:4bb62ec468cc5fcd30ac8769a42e70d67698125117edf1e1b5b7af0429288d95",
+        "bytes": 2535
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs.d.ts",
+        "sha256": "sha256:3c5491f14eace92b2eb03f7d6c6495744cc42eb83d43a55bc0afd09b9e00319c",
+        "bytes": 7035
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs.d.ts.map",
+        "sha256": "sha256:7e46666459e91ba24afc69a308adcd51ea90e93d705ba0b59f4bc1de3558a98d",
+        "bytes": 1928
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs.js",
+        "sha256": "sha256:4a01a70543e338ce614665ccf538ba4408f4b4ed8d7eea14ec0b6645820483d4",
+        "bytes": 15438
+      },
+      {
+        "path": "dist/esm/cas-adapters/fs.js.map",
+        "sha256": "sha256:d3ded8796a6b9837e685ae801bc6f5bb6dff7b62c086b160bf7472815284e5c6",
+        "bytes": 8948
+      },
+      {
+        "path": "dist/esm/cas-adapters/registry.d.ts",
+        "sha256": "sha256:d4d40062d10600beff5061438e737ac997f116d8e5bf839b80065f080fe06654",
+        "bytes": 4028
+      },
+      {
+        "path": "dist/esm/cas-adapters/registry.d.ts.map",
+        "sha256": "sha256:8a17e73546673b50dbef64e1a457e1593709db8ac14a7b30331ddcac8a2a32de",
+        "bytes": 1857
+      },
+      {
+        "path": "dist/esm/cas-adapters/registry.js",
+        "sha256": "sha256:9b5b6a4f6b0cce48619500f71f4135ad5d78980e999e98a96cc5290a4672ec19",
+        "bytes": 5058
+      },
+      {
+        "path": "dist/esm/cas-adapters/registry.js.map",
+        "sha256": "sha256:1b2cd47ef0e73c2c54501b7bf79e795dbfb5e0379cfd334f01e0dcf69c8add89",
+        "bytes": 3149
+      },
+      {
+        "path": "dist/esm/cas-attestation.d.ts",
+        "sha256": "sha256:0467ac5dda09a2c6602f06630a62afa52f2622e01bf1da45b98270a7e66ff75c",
+        "bytes": 12377
+      },
+      {
+        "path": "dist/esm/cas-attestation.d.ts.map",
+        "sha256": "sha256:3bc3eb99307eb708c2a6cabdfa4e8b0a7f37354f95fbb28879c9da8b8394b30a",
+        "bytes": 4458
+      },
+      {
+        "path": "dist/esm/cas-attestation.js",
+        "sha256": "sha256:038a37bc45bfa989e1d8d03c1b9fc49bf73e46ffb43f78903b3f6b76bb8f5ebd",
+        "bytes": 25103
+      },
+      {
+        "path": "dist/esm/cas-attestation.js.map",
+        "sha256": "sha256:f7ed81a9ced6127855d076ccfcc513b42adb20aceb906021fe27301dc6d6988b",
+        "bytes": 15250
+      },
+      {
+        "path": "dist/esm/commit-observation.d.ts",
+        "sha256": "sha256:9a8fa83085bccbdc02a3d80de57b2ed425d6dd423aad4cd99c98c437456100e7",
+        "bytes": 1567
+      },
+      {
+        "path": "dist/esm/commit-observation.d.ts.map",
+        "sha256": "sha256:0bbd293d87655a71db5f1e2345c692052e8be4bef226f4f5cb6765697a1f8bf2",
+        "bytes": 1628
+      },
+      {
+        "path": "dist/esm/commit-observation.js",
+        "sha256": "sha256:43d94cfe97dd8db984f3e77b3275582ca3f7453831f77986732d951b6d337373",
+        "bytes": 7578
+      },
+      {
+        "path": "dist/esm/commit-observation.js.map",
+        "sha256": "sha256:64035920ef39f0cca4b18c59ebd47a7758da8e55d3ea5f8a72bbf17acae714f7",
+        "bytes": 7795
+      },
+      {
+        "path": "dist/esm/conditional-write.d.ts",
+        "sha256": "sha256:22061638bf5f3523249302be5a5664c0b00427e4d8a049048b9e6e00c49c0741",
+        "bytes": 11620
+      },
+      {
+        "path": "dist/esm/conditional-write.d.ts.map",
+        "sha256": "sha256:7c065a0c64ba275c9850fdce43d66de7b5a0537304e9f0bc73ee0c4abd42269a",
+        "bytes": 3124
+      },
+      {
+        "path": "dist/esm/conditional-write.js",
+        "sha256": "sha256:bc0ec2926c9b08bdfaf959a2813438938b1f980bc1da963a6e545ae37f8d511b",
+        "bytes": 8273
+      },
+      {
+        "path": "dist/esm/conditional-write.js.map",
+        "sha256": "sha256:92358256f0d0a6f41638cb75d6d5cb7e8ed8d03de68189bf9a175420ba503cb4",
+        "bytes": 4251
+      },
+      {
+        "path": "dist/esm/coverage-attestation.d.ts",
+        "sha256": "sha256:37f7cf01b9a53d97f169e383a1d586da323586b25f6ae8c240e4d807d957e353",
+        "bytes": 1524
+      },
+      {
+        "path": "dist/esm/coverage-attestation.d.ts.map",
+        "sha256": "sha256:b30cf2927f11604bf5bcd2574877e002e0cf4d2587a307ad9463d37f35241b53",
+        "bytes": 999
+      },
+      {
+        "path": "dist/esm/coverage-attestation.js",
+        "sha256": "sha256:e7b5583ff6bc9bcf330b6e8d77d71c2a70e4ed85e3ace8b16f182da809b729cf",
+        "bytes": 6362
+      },
+      {
+        "path": "dist/esm/coverage-attestation.js.map",
+        "sha256": "sha256:4179547a35977e84094e9ba75f43dc28f5c57fe177744da6b912e19f154fd03f",
+        "bytes": 4302
+      },
+      {
+        "path": "dist/esm/coverage-observed.d.ts",
+        "sha256": "sha256:812f5eb545ee915acfc66ca70958b5d8d32f5f17f772ff316f702538ef7817a3",
+        "bytes": 1794
+      },
+      {
+        "path": "dist/esm/coverage-observed.d.ts.map",
+        "sha256": "sha256:2e216f5b10f5735e2389d72a31d4d457585d835f15ec8d01d9c99e12c647af8a",
+        "bytes": 1451
+      },
+      {
+        "path": "dist/esm/coverage-observed.js",
+        "sha256": "sha256:2fd910914d559f3f1b613d67f0fbe6919dcaade0661d943f1b0aa2aca95f873a",
+        "bytes": 4499
+      },
+      {
+        "path": "dist/esm/coverage-observed.js.map",
+        "sha256": "sha256:2f37e509248e2449a8db249a2758595ec5816cb53139329f39f0ff96bcc6c8bb",
+        "bytes": 3567
+      },
+      {
+        "path": "dist/esm/coverage-report.d.ts",
+        "sha256": "sha256:7b1f7c92ef33140cbbd630c5531f4d99cd6ddabc02fad3a7557d867b104a81c7",
+        "bytes": 4427
+      },
+      {
+        "path": "dist/esm/coverage-report.d.ts.map",
+        "sha256": "sha256:843514f18cc3f0a88281cd7e2cdd6010dc96a5e61e569b32944d38639f0c29de",
+        "bytes": 2218
+      },
+      {
+        "path": "dist/esm/coverage-report.js",
+        "sha256": "sha256:f876cd63381cd8b268ca211301c6d8608163fbc44759a83d24bb09cb19bcbca6",
+        "bytes": 12139
+      },
+      {
+        "path": "dist/esm/coverage-report.js.map",
+        "sha256": "sha256:dda1459e6cb92b361294156ed6b5630747acec01b2ce1a184070d64cc7676f8d",
+        "bytes": 8535
+      },
+      {
+        "path": "dist/esm/deny-remedy.d.ts",
+        "sha256": "sha256:92c4afb4289838a352d768edd41c4ff5a66cadf1f9f07bf1334982b1fa721839",
+        "bytes": 3473
+      },
+      {
+        "path": "dist/esm/deny-remedy.d.ts.map",
+        "sha256": "sha256:12aa90a137394e553d06db2bdb300dff1a7a7f990b8443588a9c391ef5a9b6dd",
+        "bytes": 1105
+      },
+      {
+        "path": "dist/esm/deny-remedy.js",
+        "sha256": "sha256:0ebb9a8a861362052c0eb854b0f40aeea4da078120fa169f0c43e31eda4902fc",
+        "bytes": 5281
+      },
+      {
+        "path": "dist/esm/deny-remedy.js.map",
+        "sha256": "sha256:5a701999f3bf6d4c5326019adfa44e3b6e8a64560ecde3184ed3f082a05d03e1",
+        "bytes": 2284
+      },
+      {
+        "path": "dist/esm/deny-teaching.d.ts",
+        "sha256": "sha256:65bbcf23c1709bc9947f1cac1d39fcce2ad0f21f8120b5bad48b5feaec0feb53",
+        "bytes": 3627
+      },
+      {
+        "path": "dist/esm/deny-teaching.d.ts.map",
+        "sha256": "sha256:45d87646a625ab9c21a9cbe63a6d98ac68b55628b6d65e998cf927a734bebbcd",
+        "bytes": 793
+      },
+      {
+        "path": "dist/esm/deny-teaching.js",
+        "sha256": "sha256:498d7b4a167c4f72721b7abb91db6cd4ad0bddb31e7f40d8fc98510999164ad2",
+        "bytes": 6736
+      },
+      {
+        "path": "dist/esm/deny-teaching.js.map",
+        "sha256": "sha256:718b930161e792ccc4efc88c36598577bab814ee2854ed981f5568baebbc1669",
+        "bytes": 2413
+      },
+      {
+        "path": "dist/esm/deploy-bind.d.ts",
+        "sha256": "sha256:6781e030e87268d532f0cbe50b2039e60807730853556b5bd6f9e093aca39e0c",
+        "bytes": 5836
+      },
+      {
+        "path": "dist/esm/deploy-bind.d.ts.map",
+        "sha256": "sha256:f46219a2a4f5962a9b06d3e5f64d07853941adc51afdfc6f470dc0ed0275c8dc",
+        "bytes": 1531
+      },
+      {
+        "path": "dist/esm/deploy-bind.js",
+        "sha256": "sha256:bbf6c3fba28738e0fb5df7623200617b4908adb56fe6a1b0525f5da2d1069876",
+        "bytes": 4973
+      },
+      {
+        "path": "dist/esm/deploy-bind.js.map",
+        "sha256": "sha256:be2c1514058d76d9388d8d34b2f941b34573c54e3d188617f899334c888ac5ef",
+        "bytes": 2999
+      },
+      {
+        "path": "dist/esm/deploy-gate.d.ts",
+        "sha256": "sha256:acd9641e119ce543a851d459f685315ca841515a31145a373a5ffa7095625625",
+        "bytes": 11071
+      },
+      {
+        "path": "dist/esm/deploy-gate.d.ts.map",
+        "sha256": "sha256:9c27d4439f7fd02918d79b1e0d8b3cc9fd632baa7b61bec02c8b82367c169e53",
+        "bytes": 3735
+      },
+      {
+        "path": "dist/esm/deploy-gate.js",
+        "sha256": "sha256:6dbc31d7f7ccf3328da7953cfa7063d07781a8b852ec758897db95fd4ce8fa55",
+        "bytes": 13223
+      },
+      {
+        "path": "dist/esm/deploy-gate.js.map",
+        "sha256": "sha256:da138b3ba85e31b46593a94241c15b13f2b816353b7c715ca51dd1a6ffe7e371",
+        "bytes": 8279
+      },
+      {
+        "path": "dist/esm/deploy-receipt-token.d.ts",
+        "sha256": "sha256:132c8347c91ad0a3aae6e1849e8c8913f9eed4f2ca123f5b780ecb819d4ac332",
+        "bytes": 3192
+      },
+      {
+        "path": "dist/esm/deploy-receipt-token.d.ts.map",
+        "sha256": "sha256:e436f164b1af96af62f995d3c2ce948e78a84e9c03c9b9e5755375ee3d962229",
+        "bytes": 1675
+      },
+      {
+        "path": "dist/esm/deploy-receipt-token.js",
+        "sha256": "sha256:1bb6cf147df13f8f7dcdda2bbca64ff90cbd45c51112ffdd229a98d277dd20bd",
+        "bytes": 13413
+      },
+      {
+        "path": "dist/esm/deploy-receipt-token.js.map",
+        "sha256": "sha256:7c5d19ad12271bfc210d8a59879b36be0be5265b087f22bc054492711878c9fc",
+        "bytes": 11654
+      },
+      {
+        "path": "dist/esm/detector.d.ts",
+        "sha256": "sha256:e4e428692eddfde282be7eee5fc8b35e4ca37b6387b60fa801a5224622022034",
+        "bytes": 651
+      },
+      {
+        "path": "dist/esm/detector.d.ts.map",
+        "sha256": "sha256:dfc78a4c3b11260d6cc5253a1920f476326c1a87307a60b6d495bfd92039ccb3",
+        "bytes": 248
+      },
+      {
+        "path": "dist/esm/detector.js",
+        "sha256": "sha256:a96a17b91e8b060809ab4ba4e969f98913da01f5db26cbc977e9e643d2e16227",
+        "bytes": 23213
+      },
+      {
+        "path": "dist/esm/detector.js.map",
+        "sha256": "sha256:0b58254861a1d27abedc183d56334f843044938fd448d849aa362a938f493162",
+        "bytes": 19815
+      },
+      {
+        "path": "dist/esm/enforcement-gate.d.ts",
+        "sha256": "sha256:be40b6f0613b8f2862485f51dd0c402bde908f98ad8cced426e02f0315ec2e8e",
+        "bytes": 4692
+      },
+      {
+        "path": "dist/esm/enforcement-gate.d.ts.map",
+        "sha256": "sha256:9ae9316e92f54dc546b6d1d028a1efd00a0368edf411ebee65452b11ef77ae7d",
+        "bytes": 970
+      },
+      {
+        "path": "dist/esm/enforcement-gate.js",
+        "sha256": "sha256:5cb2d4cccd7eeeda46a555fd4d9da4e8bae49d50fe2bd6f1bbba285e50d6254a",
+        "bytes": 9587
+      },
+      {
+        "path": "dist/esm/enforcement-gate.js.map",
+        "sha256": "sha256:baa5555c32df0132b703450946a77ab296467f6ad05d26842759fd5debfcb5b8",
+        "bytes": 4603
+      },
+      {
+        "path": "dist/esm/execute-tool-call.d.ts",
+        "sha256": "sha256:b9b901897fc6f5b7e474d77fbc0ba19115bf67f728056786ff4e3458a46bfbc0",
+        "bytes": 6705
+      },
+      {
+        "path": "dist/esm/execute-tool-call.d.ts.map",
+        "sha256": "sha256:6c399f74a8e405c93deef69914d07cb8684324ec32c7afa399d2459c8b37fc23",
+        "bytes": 3021
+      },
+      {
+        "path": "dist/esm/execute-tool-call.js",
+        "sha256": "sha256:95c2f5da48af5d4a238304026b38a941bacec22d299eaa6c3e2ccbb0649f5201",
+        "bytes": 15039
+      },
+      {
+        "path": "dist/esm/execute-tool-call.js.map",
+        "sha256": "sha256:1dceec8d2deca7b34fa02f675beafd6326787f6e03cb2140907d870fbadb7ea3",
+        "bytes": 10700
+      },
+      {
+        "path": "dist/esm/execution-grant.d.ts",
+        "sha256": "sha256:42448faa2145defa7de63c9a227ee69005c4777636ab89c31271f61151b515bd",
+        "bytes": 6723
+      },
+      {
+        "path": "dist/esm/execution-grant.d.ts.map",
+        "sha256": "sha256:703de469211b31cd03c8593239a4bea635cba1ccb390ea0b7907e0f1437202a6",
+        "bytes": 2464
+      },
+      {
+        "path": "dist/esm/execution-grant.js",
+        "sha256": "sha256:edcb6af5d81fd54be0d2cc6c54d1cfa00351f7555fb8fe7276002d371ca8db9d",
+        "bytes": 7972
+      },
+      {
+        "path": "dist/esm/execution-grant.js.map",
+        "sha256": "sha256:849175843807dd814808cc6eb67d207664bd47d4b25a98ad27a94593a38aab7e",
+        "bytes": 4673
+      },
+      {
+        "path": "dist/esm/execution-proof.d.ts",
+        "sha256": "sha256:f6d1d611cdebfd9b9c3f45e15b2ea12356f9ee6bf048248048ab3ed4b441b485",
+        "bytes": 10662
+      },
+      {
+        "path": "dist/esm/execution-proof.d.ts.map",
+        "sha256": "sha256:10d5bde960ca648ede3bec2358c4ca76213922573995cfe8502e046ff442e456",
+        "bytes": 3561
+      },
+      {
+        "path": "dist/esm/execution-proof.js",
+        "sha256": "sha256:4e3b5a159c490289ef241d755f0a9bd6d56ecce58b11ec6454af27ab329abd21",
+        "bytes": 9453
+      },
+      {
+        "path": "dist/esm/execution-proof.js.map",
+        "sha256": "sha256:b2be05fbf840f8bafaf5822fb00b070fc4569352cd7a2777bef9f1275c7ada0f",
+        "bytes": 6829
+      },
+      {
+        "path": "dist/esm/execution-time-fingerprint.d.ts",
+        "sha256": "sha256:d3f6fc470fc53f7d3c248e8b8fc433a01729eafebd9b77009335aebddceabd9a",
+        "bytes": 3916
+      },
+      {
+        "path": "dist/esm/execution-time-fingerprint.d.ts.map",
+        "sha256": "sha256:5ef398725ae0cd529606197f5371a0d1b11be1cb08c1a6ce94ca30fa39b09874",
+        "bytes": 1497
+      },
+      {
+        "path": "dist/esm/execution-time-fingerprint.js",
+        "sha256": "sha256:0b7518e74f3ade273cdf86e5a137249f543e92c570fd597266a6d6aaec45464a",
+        "bytes": 6000
+      },
+      {
+        "path": "dist/esm/execution-time-fingerprint.js.map",
+        "sha256": "sha256:d97c4abfe0cfd586ced1446b353780c4cf071a5f971c58f5a9bc4dcc6f73ea47",
+        "bytes": 3944
+      },
+      {
+        "path": "dist/esm/final-answer-proof.d.ts",
+        "sha256": "sha256:5899689bd8f7b42fe43223414b43544023c8e9b275088761724cf056a7d6bd4c",
+        "bytes": 3757
+      },
+      {
+        "path": "dist/esm/final-answer-proof.d.ts.map",
+        "sha256": "sha256:8916ee7f8cde45222ee611c7edb89bf8df232909d4ed8892ee3e5bdf9ac49b97",
+        "bytes": 1089
+      },
+      {
+        "path": "dist/esm/final-answer-proof.js",
+        "sha256": "sha256:3fc7bff821f0a626ceb702f2a4e1c6628ef5cd7f3179669e86f9e93075068612",
+        "bytes": 15664
+      },
+      {
+        "path": "dist/esm/final-answer-proof.js.map",
+        "sha256": "sha256:d2d3026dd42e20d57b269a637a9a11d8fe011cb7e62b207b9a3c93f9c00f49d0",
+        "bytes": 11207
+      },
+      {
+        "path": "dist/esm/freshness.d.ts",
+        "sha256": "sha256:d73dd82a2ac31c4efb3d7e3b1d13d422eae6dec97fb6b55d62949e0cf4eccbad",
+        "bytes": 13034
+      },
+      {
+        "path": "dist/esm/freshness.d.ts.map",
+        "sha256": "sha256:53f828b43317dc3a91cce6b1bc3386213e730cd27f7da8ced3a1fa3fce5d01cb",
+        "bytes": 4184
+      },
+      {
+        "path": "dist/esm/freshness.js",
+        "sha256": "sha256:9c29fa9b57487c68b99f83f0f07f5940760a6eb081377ef0477b71e0b679bd75",
+        "bytes": 19177
+      },
+      {
+        "path": "dist/esm/freshness.js.map",
+        "sha256": "sha256:14a36f0d5047fb1088ef5c85b837409acb72269af0b69a49e1d4d44b6c31c50e",
+        "bytes": 11407
+      },
+      {
+        "path": "dist/esm/gate-refusal.d.ts",
+        "sha256": "sha256:4954b524bad99e95a34ed5713cfdd21eba23286cbd1bde2dc24db82fd862078b",
+        "bytes": 920
+      },
+      {
+        "path": "dist/esm/gate-refusal.d.ts.map",
+        "sha256": "sha256:2c87ff1d65078a72eff3b20e0e2b85577b9191ef5dd8b8025f756d6c066fdb59",
+        "bytes": 580
+      },
+      {
+        "path": "dist/esm/gate-refusal.js",
+        "sha256": "sha256:ca948f58c0de67e2cd5ee15202f30a66a3d0b90c64406e7e6a5da2148e2a7e5c",
+        "bytes": 4236
+      },
+      {
+        "path": "dist/esm/gate-refusal.js.map",
+        "sha256": "sha256:136418ee3c8f0e31fdea139605aaa28f57e1250f272906753885ae7fa133cf53",
+        "bytes": 2689
+      },
+      {
+        "path": "dist/esm/guard.d.ts",
+        "sha256": "sha256:0f5001ec71626815c2f4c6be4ff38d3dc07a81679dddc5719385731b68f03849",
+        "bytes": 1374
+      },
+      {
+        "path": "dist/esm/guard.d.ts.map",
+        "sha256": "sha256:a05e845fdc1d3ecddcec944032ccd6acdee46ce247a59cc57cd98ddaa57b4640",
+        "bytes": 515
+      },
+      {
+        "path": "dist/esm/guard.js",
+        "sha256": "sha256:977687d3adcdc9e25ec5dc5f436d95f6f154d4ce3239d93e23e09844b14b6558",
+        "bytes": 57029
+      },
+      {
+        "path": "dist/esm/guard.js.map",
+        "sha256": "sha256:d48b4baab9a8e24badccea6240f902667ff16d8ee6a3d30a1dd3e5c45cc7c406",
+        "bytes": 41793
+      },
+      {
+        "path": "dist/esm/index.d.ts",
+        "sha256": "sha256:b750c89fb07b61f3b7bb2fc43ace04930ff3ef2877fef7d90a589af2989e2eb1",
+        "bytes": 16439
+      },
+      {
+        "path": "dist/esm/index.d.ts.map",
+        "sha256": "sha256:11225282ce22134a8b9da15b8e8d76868d1e82d0a7bdb12bb3d5c04e3309fc2f",
+        "bytes": 9589
+      },
+      {
+        "path": "dist/esm/index.js",
+        "sha256": "sha256:d63b1ab120f43f76d1c02b1fc5e6e5564db6c71cc0ecee45a5833ee11af9f04c",
+        "bytes": 14522
+      },
+      {
+        "path": "dist/esm/index.js.map",
+        "sha256": "sha256:75c6ed113ce16fb0635bce006d5da563abd903312714ceee6f62dfababa00e23",
+        "bytes": 5728
+      },
+      {
+        "path": "dist/esm/merge-gate.d.ts",
+        "sha256": "sha256:1d086509ebf59657e4d56b19a768a154c424f605c02282903b4076ae2495eb55",
+        "bytes": 6181
+      },
+      {
+        "path": "dist/esm/merge-gate.d.ts.map",
+        "sha256": "sha256:af245e1a132311969790b708e99e797bcce400557aa016553f9d6b32bbe7f403",
+        "bytes": 2289
+      },
+      {
+        "path": "dist/esm/merge-gate.js",
+        "sha256": "sha256:1cdca5ae847f54797d541aa5afe5ad4af24239fcd2151d433ccff7617b91ff2a",
+        "bytes": 8098
+      },
+      {
+        "path": "dist/esm/merge-gate.js.map",
+        "sha256": "sha256:9ddbceadf00e88dd44074f5c130fdcd03ab5979b5bf646c89a436f20931940ce",
+        "bytes": 5415
+      },
+      {
+        "path": "dist/esm/monitoring-attestation.d.ts",
+        "sha256": "sha256:15013e02915e59bcef9e4ce07d441e86f0e0121116e833f0fbaa49856cb0f031",
+        "bytes": 1478
+      },
+      {
+        "path": "dist/esm/monitoring-attestation.d.ts.map",
+        "sha256": "sha256:5c17109493ee02cbd2e1b4951a964b6e30f756946d9957849044f0e15a72d205",
+        "bytes": 1012
+      },
+      {
+        "path": "dist/esm/monitoring-attestation.js",
+        "sha256": "sha256:d70a7621e563e4e5615c0e0d1612b520931ae1e8f75e81bd8f4b41dac17f3f7e",
+        "bytes": 4388
+      },
+      {
+        "path": "dist/esm/monitoring-attestation.js.map",
+        "sha256": "sha256:727d80b01133547caaad7fd6b9b11c4e7b4106d40846ffa9f34630cb51061b43",
+        "bytes": 4224
+      },
+      {
+        "path": "dist/esm/monitoring-delivery.d.ts",
+        "sha256": "sha256:360b616691e3fc1869195b9a6db4cd019111138f854508b26ffd9243e0e5c775",
+        "bytes": 2377
+      },
+      {
+        "path": "dist/esm/monitoring-delivery.d.ts.map",
+        "sha256": "sha256:1fcc2bc209f98797a993fdcff4c59e49e497e09ea34f1d8cbc828592708f87f6",
+        "bytes": 2185
+      },
+      {
+        "path": "dist/esm/monitoring-delivery.js",
+        "sha256": "sha256:cfec12f2d2dde5e5175e16fa53d19fb238b277516e6abc29a5f4010d837f211a",
+        "bytes": 10119
+      },
+      {
+        "path": "dist/esm/monitoring-delivery.js.map",
+        "sha256": "sha256:9a606f3c86bdd24d1215ce6f913d5a80c0b409bfa56f29912a41dab369b318b1",
+        "bytes": 10078
+      },
+      {
+        "path": "dist/esm/next-agent-step.d.ts",
+        "sha256": "sha256:5f438df232e7cc37b5164db96dc8db37647401e7cb502def7e7815477cdd3cca",
+        "bytes": 2726
+      },
+      {
+        "path": "dist/esm/next-agent-step.d.ts.map",
+        "sha256": "sha256:fc53e6eb54e3f2e7894bd90c2c0e1fef2ecda68acfdf44f04d242c9a2d17fb8f",
+        "bytes": 576
+      },
+      {
+        "path": "dist/esm/next-agent-step.js",
+        "sha256": "sha256:ea945f10d4fd9d15020c3dd044f83a620a48a412d7d141fbf68054369e043be0",
+        "bytes": 2477
+      },
+      {
+        "path": "dist/esm/next-agent-step.js.map",
+        "sha256": "sha256:096552c85eb5c2752d00c46f6a76ed61ac2e1c085cf4386eccf9d3189372ddf5",
+        "bytes": 742
+      },
+      {
+        "path": "dist/esm/offline-verify.d.ts",
+        "sha256": "sha256:0c3972489908cde116ea46adcddc2cfd3a35258c131fa5035a272c6604246e4b",
+        "bytes": 4019
+      },
+      {
+        "path": "dist/esm/offline-verify.d.ts.map",
+        "sha256": "sha256:390d9697f0fbdee463799841e180d2b3dc20862fcd65e126f6470f7b74bfa862",
+        "bytes": 806
+      },
+      {
+        "path": "dist/esm/offline-verify.js",
+        "sha256": "sha256:e4c8cb97569fe0d17cb28e12db70cdf49c859ff6e6d4c59e281c216c4b5441b3",
+        "bytes": 4014
+      },
+      {
+        "path": "dist/esm/offline-verify.js.map",
+        "sha256": "sha256:0d2381d8d57ac7070971560233b3a6afd3c0d0571e4dbc128f14df9f94e26a9e",
+        "bytes": 1111
+      },
+      {
+        "path": "dist/esm/package.json",
+        "sha256": "sha256:1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+        "bytes": 18
+      },
+      {
+        "path": "dist/esm/policy.d.ts",
+        "sha256": "sha256:bd0e0b6d44a13bb30d19c5903930e666b3312ed293287da2d0132b9e64625a36",
+        "bytes": 3032
+      },
+      {
+        "path": "dist/esm/policy.d.ts.map",
+        "sha256": "sha256:e11a4bd87013ca89efb26c681aaaeeb0461e547d7efc09d7e3b1be8ae556e2ad",
+        "bytes": 1126
+      },
+      {
+        "path": "dist/esm/policy.js",
+        "sha256": "sha256:38cc8373117768b4547595f43e48f705847274f99330ec1469c8cd5adfc94b29",
+        "bytes": 9087
+      },
+      {
+        "path": "dist/esm/policy.js.map",
+        "sha256": "sha256:510cfe7f6e672492c99be62792610b63ef65ef4e97d96b3f895622b872abbaa4",
+        "bytes": 2952
+      },
+      {
+        "path": "dist/esm/posture-receipt.d.ts",
+        "sha256": "sha256:94747ee2cb236a6f4625c734faa4536ae3ce41792e29472154fefc7703b41297",
+        "bytes": 5365
+      },
+      {
+        "path": "dist/esm/posture-receipt.d.ts.map",
+        "sha256": "sha256:48cbe8412e719ba950eb1ae0888fa7d9abedc5ddd0f792503ed881537afbf849",
+        "bytes": 1688
+      },
+      {
+        "path": "dist/esm/posture-receipt.js",
+        "sha256": "sha256:e6e0d6352cb83e459439989128988ff382b5649e31e5161cbce159b703e60bb1",
+        "bytes": 10121
+      },
+      {
+        "path": "dist/esm/posture-receipt.js.map",
+        "sha256": "sha256:ff9382ec4ff5a45a28a1b3ce47cdaab48102855a2c63f5d60e65e1f05e1ba088",
+        "bytes": 6694
+      },
+      {
+        "path": "dist/esm/read-decision.d.ts",
+        "sha256": "sha256:1f0e74594d99111177a407e101551d06c2c2b7b430a61d168b3ae0ff4f31f729",
+        "bytes": 2776
+      },
+      {
+        "path": "dist/esm/read-decision.d.ts.map",
+        "sha256": "sha256:910ba39cc8a45f1d29783a0180ff639029c09b9eff4d01c72d30ec0017ff8684",
+        "bytes": 952
+      },
+      {
+        "path": "dist/esm/read-decision.js",
+        "sha256": "sha256:c6f4d79feece2c7117063c850577b2a9a411b11801a0349290163c0e6f60a5f1",
+        "bytes": 7086
+      },
+      {
+        "path": "dist/esm/read-decision.js.map",
+        "sha256": "sha256:87ebcd0dbc3ef349de53089816ebdd2e0f2ee371442e0a9735d4b6916b3541ff",
+        "bytes": 4742
+      },
+      {
+        "path": "dist/esm/receipt-binding.d.ts",
+        "sha256": "sha256:9ff848c88e81f0affb7327091fc4556b033d99da1049b3d948d1a3b3ab822035",
+        "bytes": 3457
+      },
+      {
+        "path": "dist/esm/receipt-binding.d.ts.map",
+        "sha256": "sha256:302a89cbc4bfd6502ef312b95b4c7d0843a06af1894d97640489b42183edde2a",
+        "bytes": 989
+      },
+      {
+        "path": "dist/esm/receipt-binding.js",
+        "sha256": "sha256:071f6f9f2648eb14a5b975399dde4ec95190f221033f7011b943984146654384",
+        "bytes": 5996
+      },
+      {
+        "path": "dist/esm/receipt-binding.js.map",
+        "sha256": "sha256:99aab4c559df3d3c8a96bf8c5a25e0436ba065e688b1349dd9af0dbdc5361044",
+        "bytes": 3572
+      },
+      {
+        "path": "dist/esm/receipt-chain.d.ts",
+        "sha256": "sha256:6b830fa51ae78e04ba422509ebd08c8aa5121a430aadc3b0f1a2868f074583db",
+        "bytes": 2282
+      },
+      {
+        "path": "dist/esm/receipt-chain.d.ts.map",
+        "sha256": "sha256:7c213504f74c2d4b4782beefd37a4ccdf083b6b5dc1c72c5ed2559dce4b5960f",
+        "bytes": 824
+      },
+      {
+        "path": "dist/esm/receipt-chain.js",
+        "sha256": "sha256:a959eeadb7489fdd0e1ad6028c40a8d69c9d7ad31c007dbbbbba50270df8ec34",
+        "bytes": 3674
+      },
+      {
+        "path": "dist/esm/receipt-chain.js.map",
+        "sha256": "sha256:80a08f4df2498a5504c8f5c5df64de5ff92bb9b032d2fefb2b4396decd2f2e95",
+        "bytes": 2186
+      },
+      {
+        "path": "dist/esm/remediation-loop-attestation.d.ts",
+        "sha256": "sha256:5af308e0b6bdc0cd99bda41941806a13c3496166775e0c61512c994849b6f087",
+        "bytes": 5960
+      },
+      {
+        "path": "dist/esm/remediation-loop-attestation.d.ts.map",
+        "sha256": "sha256:fed6d7570dfb9ba6592ecb7ce49666fd09be39b66a776229d141405b8024d6d7",
+        "bytes": 2234
+      },
+      {
+        "path": "dist/esm/remediation-loop-attestation.js",
+        "sha256": "sha256:e34a7dcfa9e3c0ce87bfa494f9405812e76fc1f687c8638e83c13e1157f99e4c",
+        "bytes": 8395
+      },
+      {
+        "path": "dist/esm/remediation-loop-attestation.js.map",
+        "sha256": "sha256:aec755982af1d1d51456d5c41abf4f756edc4593fa0cbb4fed0c948e7900db74",
+        "bytes": 4859
+      },
+      {
+        "path": "dist/esm/resolver-glob.d.ts",
+        "sha256": "sha256:818049052af16cd811becbe823d431a9f01633131ce5a07068a503eaab7cd1aa",
+        "bytes": 1028
+      },
+      {
+        "path": "dist/esm/resolver-glob.d.ts.map",
+        "sha256": "sha256:bc9f8f842c521063bd523c68c8cfd372d371ac17c86cc0798694853b8b37475a",
+        "bytes": 491
+      },
+      {
+        "path": "dist/esm/resolver-glob.js",
+        "sha256": "sha256:75a8e6789c6ce5424cea683eeeac5e3d5e08f7250f5a798dd5f4585ce5a3595a",
+        "bytes": 1953
+      },
+      {
+        "path": "dist/esm/resolver-glob.js.map",
+        "sha256": "sha256:dd216a5497fb74b40a2ca6e2f1ca1ce3e6597a53c7274022588bcb91cf56f0aa",
+        "bytes": 1737
+      },
+      {
+        "path": "dist/esm/resolver-yaml.d.ts",
+        "sha256": "sha256:dba5ad91658174ff8809e2841ac181cc0808ef38339e9e8d358f4f70b3f93661",
+        "bytes": 1204
+      },
+      {
+        "path": "dist/esm/resolver-yaml.d.ts.map",
+        "sha256": "sha256:2a16dd5c10d3af27d0d4e3f2846f4b1d045e80f8963ae4b8ea2b27f2d2217c89",
+        "bytes": 329
+      },
+      {
+        "path": "dist/esm/resolver-yaml.js",
+        "sha256": "sha256:993f2cef4ec7c3c1e707bb54fc6664d5df9b2c5a30c73ad4fb724f7571548460",
+        "bytes": 7251
+      },
+      {
+        "path": "dist/esm/resolver-yaml.js.map",
+        "sha256": "sha256:8e39ab349e556c1f1002b69125c3803e0933332723d89be85d83bbdf42681b6a",
+        "bytes": 9106
+      },
+      {
+        "path": "dist/esm/session-taint.d.ts",
+        "sha256": "sha256:d31043759cea8161ebeff2a1ce1c474bedb508070e3aa3f5c31e858a0972d52c",
+        "bytes": 3763
+      },
+      {
+        "path": "dist/esm/session-taint.d.ts.map",
+        "sha256": "sha256:b0d76dbbd6eb5312415dcdd0496006e24f3378d9a0446c39bb231d2cb38688cb",
+        "bytes": 2820
+      },
+      {
+        "path": "dist/esm/session-taint.js",
+        "sha256": "sha256:7f1bc9fa2cebe39440ff63a6e4e644e01d871077dc21d2093161129d88c46011",
+        "bytes": 15605
+      },
+      {
+        "path": "dist/esm/session-taint.js.map",
+        "sha256": "sha256:1fe6bd418af64ce94266deb19b3cf4bf61831bb2bbf6a6b5826cde374daa15cf",
+        "bytes": 13415
+      },
+      {
+        "path": "dist/esm/tool-registry.d.ts",
+        "sha256": "sha256:82cd697c5f4f736bbd7ef1b160886f8d5f082ba7b601ffeaeb347105a86752ba",
+        "bytes": 4370
+      },
+      {
+        "path": "dist/esm/tool-registry.d.ts.map",
+        "sha256": "sha256:8f6ad86a07ad965dfc39850ecf62d3121f05cc4bfa515b45a7f0738f9f968cfa",
+        "bytes": 2593
+      },
+      {
+        "path": "dist/esm/tool-registry.js",
+        "sha256": "sha256:553c52cec85d697d9ea2df90984a500ecb9635cfbdcf0b3e2aeabe95f934a3cb",
+        "bytes": 20041
+      },
+      {
+        "path": "dist/esm/tool-registry.js.map",
+        "sha256": "sha256:3f7ecc5c6c3a3b0fe846f91f260de5fc9330581d460087e2ebd6a5d16a1a1a98",
+        "bytes": 14057
+      },
+      {
+        "path": "dist/esm/toolset-attestation.d.ts",
+        "sha256": "sha256:833d5e22fcf8beafcb34444ffab4cb3edf8cf0e3f23b0db74a31dd8d168fbee3",
+        "bytes": 3089
+      },
+      {
+        "path": "dist/esm/toolset-attestation.d.ts.map",
+        "sha256": "sha256:0584b1f5c92766933e8816698200e70c39834f7570730a27791bd2b3a0718876",
+        "bytes": 1691
+      },
+      {
+        "path": "dist/esm/toolset-attestation.js",
+        "sha256": "sha256:25d59a787f90c187cfc56205284c054708b55c14866370782f0a223a57302934",
+        "bytes": 10643
+      },
+      {
+        "path": "dist/esm/toolset-attestation.js.map",
+        "sha256": "sha256:df28f1e88ae5bb251c9fa8dce96e20865cc7aa664bff99e204863a7782d4e005",
+        "bytes": 8425
+      },
+      {
+        "path": "dist/esm/types.d.ts",
+        "sha256": "sha256:8a14f0253a152c78e4c2ca7744c5f3319646bf0b7ee881de4b4d1005fb1d44a6",
+        "bytes": 25016
+      },
+      {
+        "path": "dist/esm/types.d.ts.map",
+        "sha256": "sha256:6865dcc72319fed46730e0914c8b6aaa1ce931410a2b380966d166ee2e8ebbfa",
+        "bytes": 10195
+      },
+      {
+        "path": "dist/esm/types.js",
+        "sha256": "sha256:9c735246d89b64a7e4e5593f637f7c7087e16e2a7a4cf25eb024c06bf858007e",
+        "bytes": 785
+      },
+      {
+        "path": "dist/esm/types.js.map",
+        "sha256": "sha256:d7f78aa68b095199ee6a836e8785c16e1474dc8856534dad90897af527516227",
+        "bytes": 123
+      },
+      {
+        "path": "dist/esm/unguarded-mutation.d.ts",
+        "sha256": "sha256:9da1d24d29793cac4c210b3f8229116f03ab486af6bc9ccf7f07228dd879d32c",
+        "bytes": 5624
+      },
+      {
+        "path": "dist/esm/unguarded-mutation.d.ts.map",
+        "sha256": "sha256:03cf23261081cae1098a73817bb94144ed27dc4565aa87a6a66e164486b7c7a7",
+        "bytes": 769
+      },
+      {
+        "path": "dist/esm/unguarded-mutation.js",
+        "sha256": "sha256:3a459f45abf896abd13c6a2919c634a1683a6336f95de6a4c595165f61b8e68b",
+        "bytes": 6715
+      },
+      {
+        "path": "dist/esm/unguarded-mutation.js.map",
+        "sha256": "sha256:ffec8916ff3e610d042fcf996b40bf08fcb1d513e0bf1d77e17875369f1ea093",
+        "bytes": 1273
+      },
+      {
+        "path": "dist/esm/vendor/arity.js",
+        "sha256": "sha256:721fcac58b960b5e2aa1af91edb6cfc87ebe828a6da73879967ef79a1ca474e8",
+        "bytes": 1849
+      },
+      {
+        "path": "dist/esm/vendor/evidence-root.js",
+        "sha256": "sha256:4d5476fc44bbfc2a847feeb313a1c6c08ef7fd832a2348ef3c244bd8d3f03fcd",
+        "bytes": 8559
+      },
+      {
+        "path": "dist/esm/vendor/keys/coderifts-keys.json",
+        "sha256": "sha256:bfe0c898cda3c3a4c8141726d0adb4cdb7eb9762de6264e430eff6469b90422e",
+        "bytes": 221
+      },
+      {
+        "path": "dist/esm/vendor/VENDOR.sha256",
+        "sha256": "sha256:5b9999d4664372d22a92d70ed246654f4e151df23bb70a625dbad7651c823634",
+        "bytes": 4876
+      },
+      {
+        "path": "dist/esm/vendor/verified-execution-binding.js",
+        "sha256": "sha256:9d0259e916f2bcd32029744c3e9ec81448bcefa46e6ad3f054c8a650dc0482b7",
+        "bytes": 29188
+      },
+      {
+        "path": "dist/esm/vendor/verify-evidence.js",
+        "sha256": "sha256:98cd9b989a25095e0442f91f68a1adecd6e6a2a5b05902bf2580b8cba973c5e2",
+        "bytes": 19430
+      },
+      {
+        "path": "dist/esm/vendor/verify-grant.js",
+        "sha256": "sha256:4a0ad5bd7bb8282e086bea99dcaf8ca278370d80019c5681d2942bf11bc87504",
+        "bytes": 26414
+      },
+      {
+        "path": "dist/esm/vendor/verify-prove-transcript.js",
+        "sha256": "sha256:3bb17bd4f16d5ee3cf3fbb754b4df9aa570a615ca94ff2a97b751c4fabd3bd0d",
+        "bytes": 2931
+      },
+      {
+        "path": "dist/esm/vendor/verify.js",
+        "sha256": "sha256:348d3f851cd79bf63298b51da422d11be980820576ab0bf0a2990b9f007d6249",
+        "bytes": 20636
+      },
+      {
+        "path": "dist/esm/with-coderifts.d.ts",
+        "sha256": "sha256:bcf1185aa7625582fb6de8c8609121866b7bcd8dfee605aabb6f69dd2d09059a",
+        "bytes": 25679
+      },
+      {
+        "path": "dist/esm/with-coderifts.d.ts.map",
+        "sha256": "sha256:4e00718edf25ff009992ac2286d521707a1b87d7a0fa63be4de938b3a5aa9711",
+        "bytes": 5410
+      },
+      {
+        "path": "dist/esm/with-coderifts.js",
+        "sha256": "sha256:f62f9b4d537386f8b84edc3547cbcf2182b4f7df5a3f69cb699dedc424710a06",
+        "bytes": 41703
+      },
+      {
+        "path": "dist/esm/with-coderifts.js.map",
+        "sha256": "sha256:cc3267a00748f09192f87627423d27e223db7d7cc4b76167344c9113f5d07950",
+        "bytes": 18513
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:4aeb06d7c17a05d5e2050298c98fcdae99e3515bcb21b6892ef9abc579eeaeef",
+        "bytes": 1669
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:8662e3693be9ff6db2495c3be143d4a15775ee7101ac1c8f11457984871970ed",
+        "bytes": 59285
+      }
+    ]
+  }
+}
