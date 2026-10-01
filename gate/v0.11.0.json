@@ -1,0 +1,18 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "gate",
+  "name": "https://github.com/coderifts/contract-gate.git",
+  "kind": "git-tag",
+  "version": "v0.11.0",
+  "registry": null,
+  "source": {
+    "repository": "https://github.com/coderifts/contract-gate.git",
+    "tag": "v0.11.0",
+    "tag_object": "d5af1f530e5b23cc225da6fde3514908b8bda6e3",
+    "peeled_commit": "f01c6f155f258ee9156cb2b6ef378478c6bce26e",
+    "annotated": true
+  },
+  "signer": null,
+  "signer_reason": "git tag -v v0.11.0 did not verify: object f01c6f155f258ee9156cb2b6ef378478c6bce26e",
+  "shipped": null
+}
