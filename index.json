@@ -1,8 +1,8 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-09-30a",
-    "digest": "sha256:031ef19a8fc969274e5850d5ee7480a493c07c4694412cd579f25afded98cabd"
+    "name": "release-set-2026-10-03a",
+    "digest": "sha256:0f2a54ae84585fa5b6449105e7363650c06db64d1218911660c081804bab3a79"
   },
   "records": [
     {
@@ -37,14 +37,14 @@
     },
     {
       "artifact": "cli",
-      "version": "8.6.9",
-      "path": "cli/8.6.9.json",
+      "version": "8.6.12",
+      "path": "cli/8.6.12.json",
       "kind": "npm"
     },
     {
       "artifact": "gate",
-      "version": "v0.11.1",
-      "path": "gate/v0.11.1.json",
+      "version": "v0.11.2",
+      "path": "gate/v0.11.2.json",
       "kind": "git-tag"
     },
     {

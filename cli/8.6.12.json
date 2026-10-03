@@ -1,0 +1,124 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "cli",
+  "name": "coderifts",
+  "kind": "npm",
+  "version": "8.6.12",
+  "registry": {
+    "git_head": "daf3051dd1aedcd9a1f476caa42fa9304156851d",
+    "integrity": "sha512-WTeqyB51M25enyMdL12dzHJ8Y7xr52YckYPUJ0oOECgYi2udljRFIyY28O9BbjjZHjcwYUIRWXwc5vfTNfnjiQ==",
+    "shasum": "70c708f4eeaa145a8f7fe03682a688bf055d9c73",
+    "file_count": 17,
+    "unpacked_size": 11364460,
+    "tarball": "https://registry.npmjs.org/coderifts/-/coderifts-8.6.12.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQCWKAO5UYI5pHAqgDFwe15VWaKYPurarTXC9BNaeb88pgIgdXYzUS8+lTD4VnqRXKuaBw+D45OX6y5BVUdy8mf2Qrw="
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQCmCq9iVu4Yg3z2BErOTszehMPM7ynlMOYJMnllwhwyXwIgdBSytwl5QHcfuRRziuKtL3gIH4PaVRvXXlphNY8/pcI="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/app.git",
+    "tag": "cli-v8.6.12",
+    "tag_object": "daf3051dd1aedcd9a1f476caa42fa9304156851d",
+    "peeled_commit": "daf3051dd1aedcd9a1f476caa42fa9304156851d",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:bd7ae811d97b7593e8ae51dbb9cb5f54cf9b67367c948119d1d1f4b2ad3ba978",
+    "tarball_bytes": 2206475,
+    "file_count": 17,
+    "files": [
+      {
+        "path": "bin/coderifts.js",
+        "sha256": "sha256:bbc3250c4a4a0f1dd13e26a40de169e978beb2b1cda1002b02a9c75c15ae288c",
+        "bytes": 32811
+      },
+      {
+        "path": "CHANGELOG.md",
+        "sha256": "sha256:8490f3750200971863eb0217200a3f78636cb5cdfd4b2c1d2cdea206381efa58",
+        "bytes": 43347
+      },
+      {
+        "path": "corpus/vectors-mcp-fpfn.json",
+        "sha256": "sha256:9826f5a4c37013ced3216738f704664a8ca6ffdcef7cadd48dde23a192ab748e",
+        "bytes": 16555
+      },
+      {
+        "path": "corpus/vectors-openapi-fpfn.json",
+        "sha256": "sha256:880c70d536ce02acfadef6d37d7d8d7faf9a3b9ed6d9e586b0fce9ab454298e9",
+        "bytes": 13929
+      },
+      {
+        "path": "dist/.build-source-sha",
+        "sha256": "sha256:3a83b66123f2013e2668a7de07b7acd19cd94dca967045707e01dc3d595143d1",
+        "bytes": 432
+      },
+      {
+        "path": "dist/cli.js",
+        "sha256": "sha256:6d6c40f3fcaa114b5f578caa805b3bc216806b82b9dde90724a333cfbe8f1c10",
+        "bytes": 11164090
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:eb6b0dcf823d808e2445d406be833fc1b25751545ef23f73aa8ac464b7b2bba6",
+        "bytes": 1946
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:f1f80230b73640f6aea5ec9e166e599a26b759306f69d708067952695d120012",
+        "bytes": 45703
+      },
+      {
+        "path": "scripts/assert-changelog-version.js",
+        "sha256": "sha256:999b21fdaaabde1ac78c1a263d8c85f75b602c323b22a11d1c9a198d3af74b3e",
+        "bytes": 3911
+      },
+      {
+        "path": "scripts/assert-guard-major.js",
+        "sha256": "sha256:19fac15531ddb0de3e65554e81e4ec6b83b1c1c779b21b819eb2e41c8d858d3d",
+        "bytes": 22808
+      },
+      {
+        "path": "scripts/assert-publish-gate.sh",
+        "sha256": "sha256:525d70a6e1e37a9776e86752673feed3b9cef7fe4c644ce96d68ab65b08dae81",
+        "bytes": 2684
+      },
+      {
+        "path": "scripts/build.js",
+        "sha256": "sha256:27462337a1cb0cb272368f6608780077f4703ba6273e4c60213421dcb493cb01",
+        "bytes": 3073
+      },
+      {
+        "path": "scripts/check-packed-install.js",
+        "sha256": "sha256:c23fea7f2461cb4c74e67d66b72821dfee73740e4633766331b1f911a9132efb",
+        "bytes": 6599
+      },
+      {
+        "path": "scripts/copy-corpus.js",
+        "sha256": "sha256:5c334a9d75347242b5bc29b02b5e9c3aa909388b3f6a7c55fff9a5a8df56731e",
+        "bytes": 1041
+      },
+      {
+        "path": "scripts/lib/source-fingerprint.js",
+        "sha256": "sha256:1baf585b7d10ca987b730875cf7d6831f3d2bde950cbdf2be76f338f4113ffd2",
+        "bytes": 2397
+      },
+      {
+        "path": "scripts/postinstall.js",
+        "sha256": "sha256:d1f04f43a7ab2f6e0d0c29b51b1dc462e2cb2322871244db4b21fc9f958ec412",
+        "bytes": 2068
+      }
+    ]
+  }
+}
