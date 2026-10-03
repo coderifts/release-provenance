@@ -1,8 +1,8 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-10-03a",
-    "digest": "sha256:0f2a54ae84585fa5b6449105e7363650c06db64d1218911660c081804bab3a79"
+    "name": "release-set-2026-10-03b",
+    "digest": "sha256:3a15aa7ac2842aa5a78815f44075f72d6591904e18938428f0d60ac3a32898bc"
   },
   "records": [
     {
@@ -37,8 +37,8 @@
     },
     {
       "artifact": "cli",
-      "version": "8.6.12",
-      "path": "cli/8.6.12.json",
+      "version": "8.6.13",
+      "path": "cli/8.6.13.json",
       "kind": "npm"
     },
     {
