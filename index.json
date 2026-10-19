@@ -1,32 +1,14 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-10-03c",
-    "digest": "sha256:50d9f3e42087843f867f0fdd0dcf3562bb191105a79cec1d8360bb4226535df0"
+    "name": "release-set-2026-10-18a",
+    "digest": "sha256:fb66fb1205867ab1d3c7bf66a29e86d8f958ad0985297572fe29480f0b0f027e"
   },
   "records": [
     {
-      "artifact": "sdk",
-      "version": "3.14.3",
-      "path": "sdk/3.14.3.json",
-      "kind": "npm"
-    },
-    {
-      "artifact": "prove",
-      "version": "0.1.13",
-      "path": "prove/0.1.13.json",
-      "kind": "npm"
-    },
-    {
-      "artifact": "conformance",
-      "version": "0.8.11",
-      "path": "conformance/0.8.11.json",
-      "kind": "npm"
-    },
-    {
-      "artifact": "release-acceptance",
-      "version": "1.0.5",
-      "path": "release-acceptance/1.0.5.json",
+      "artifact": "cli",
+      "version": "8.8.0",
+      "path": "cli/8.8.0.json",
       "kind": "npm"
     },
     {
@@ -36,16 +18,10 @@
       "kind": "npm"
     },
     {
-      "artifact": "cli",
-      "version": "8.7.0",
-      "path": "cli/8.7.0.json",
+      "artifact": "sdk",
+      "version": "3.14.3",
+      "path": "sdk/3.14.3.json",
       "kind": "npm"
-    },
-    {
-      "artifact": "gate",
-      "version": "v0.11.2",
-      "path": "gate/v0.11.2.json",
-      "kind": "git-tag"
     },
     {
       "artifact": "python-sdk",
@@ -54,9 +30,33 @@
       "kind": "pypi"
     },
     {
+      "artifact": "conformance",
+      "version": "0.8.11",
+      "path": "conformance/0.8.11.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "prove",
+      "version": "0.1.13",
+      "path": "prove/0.1.13.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "release-acceptance",
+      "version": "1.0.5",
+      "path": "release-acceptance/1.0.5.json",
+      "kind": "npm"
+    },
+    {
+      "artifact": "gate",
+      "version": "v0.11.9",
+      "path": "gate/v0.11.9.json",
+      "kind": "git-tag"
+    },
+    {
       "artifact": "receipt-verifier",
-      "version": "v1.0.3",
-      "path": "receipt-verifier/v1.0.3.json",
+      "version": "v1.1.4",
+      "path": "receipt-verifier/v1.1.4.json",
       "kind": "git-tag"
     }
   ]
