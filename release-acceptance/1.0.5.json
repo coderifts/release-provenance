@@ -25,7 +25,9 @@
   "source": {
     "repository": "https://github.com/coderifts/app.git",
     "tag": "release-acceptance-v1.0.5",
-    "error": "no tag release-acceptance-v1.0.5 in https://github.com/coderifts/app.git"
+    "tag_object": "87779a5eacef372428d3f3ceb6b81e962fa42e54",
+    "peeled_commit": "2afb190feb6889b9e2a2f985978ef126216895e5",
+    "annotated": true
   },
   "shipped": {
     "tarball_sha256": "sha256:a8941bde54e86b0b08867095ad1b2332d70a5e9ff06c54e76dcbe45559a5b71a",

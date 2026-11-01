@@ -1,26 +1,26 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-10-18a",
-    "digest": "sha256:fb66fb1205867ab1d3c7bf66a29e86d8f958ad0985297572fe29480f0b0f027e"
+    "name": "release-set-2026-11-01a",
+    "digest": "sha256:82e99e68a92dc2535aa01a177c1dd5745e4108c3f770348003f21c164f15cc02"
   },
   "records": [
     {
       "artifact": "cli",
-      "version": "8.8.0",
-      "path": "cli/8.8.0.json",
+      "version": "8.8.2",
+      "path": "cli/8.8.2.json",
       "kind": "npm"
     },
     {
       "artifact": "guard",
-      "version": "17.3.6",
-      "path": "guard/17.3.6.json",
+      "version": "17.3.7",
+      "path": "guard/17.3.7.json",
       "kind": "npm"
     },
     {
       "artifact": "sdk",
-      "version": "3.14.3",
-      "path": "sdk/3.14.3.json",
+      "version": "3.14.4",
+      "path": "sdk/3.14.4.json",
       "kind": "npm"
     },
     {
@@ -37,8 +37,8 @@
     },
     {
       "artifact": "prove",
-      "version": "0.1.13",
-      "path": "prove/0.1.13.json",
+      "version": "0.1.14",
+      "path": "prove/0.1.14.json",
       "kind": "npm"
     },
     {
@@ -55,8 +55,8 @@
     },
     {
       "artifact": "receipt-verifier",
-      "version": "v1.1.4",
-      "path": "receipt-verifier/v1.1.4.json",
+      "version": "v1.1.5",
+      "path": "receipt-verifier/v1.1.5.json",
       "kind": "git-tag"
     }
   ]
