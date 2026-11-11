@@ -1,8 +1,8 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-11-11a",
-    "digest": "sha256:49d951fc8d766e236c84e95a01a427634b578b885fc043f46bb935c3f4ef0e68"
+    "name": "release-set-2026-11-11b",
+    "digest": "sha256:85dee343cadc3f06b405bcc1d2be32ff63430530440eb87194d6beb8ba1f8948"
   },
   "records": [
     {
@@ -19,8 +19,8 @@
     },
     {
       "artifact": "sdk",
-      "version": "3.14.4",
-      "path": "sdk/3.14.4.json",
+      "version": "3.14.5",
+      "path": "sdk/3.14.5.json",
       "kind": "npm"
     },
     {
@@ -31,8 +31,8 @@
     },
     {
       "artifact": "conformance",
-      "version": "0.8.11",
-      "path": "conformance/0.8.11.json",
+      "version": "0.8.12",
+      "path": "conformance/0.8.12.json",
       "kind": "npm"
     },
     {
