@@ -1,0 +1,139 @@
+{
+  "spec": "coderifts.release-provenance.v1",
+  "artifact": "cli",
+  "name": "coderifts",
+  "kind": "npm",
+  "version": "8.9.2",
+  "registry": {
+    "git_head": "267dececd54291c7c933d8138eca5a9776d7162a",
+    "integrity": "sha512-xj555T3JsdttS4wY/ew03vvniSRZlfQn6h2qwCWSHxCxnOkS+Gv5+ziw6rShXj/SGafsX+YdS7iBpaxvfyWXDA==",
+    "shasum": "d0971691b64a744d32a774219b8c5ca5f3120458",
+    "file_count": 20,
+    "unpacked_size": 12493058,
+    "tarball": "https://registry.npmjs.org/coderifts/-/coderifts-8.9.2.tgz",
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIHUFWP8GsrEi/DlQzYnxqmH72sMr/6Q5szKGY8VHzox1AiEAr9ZMI6EAaPMAh9mamTygKcDEm85V1Ro/88ZErcjgszM="
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQD/ZYTL7QakCTGnkvRIlPbbUaNVY+1WWXzeXnsqRzomkQIgE+SWzTT7LAyz3OcILnge7seqmYJ6wnuKl9scy+hUnTE="
+      }
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/coderifts/app.git",
+    "tag": "cli-v8.9.2",
+    "tag_object": "267dececd54291c7c933d8138eca5a9776d7162a",
+    "peeled_commit": "267dececd54291c7c933d8138eca5a9776d7162a",
+    "annotated": false
+  },
+  "shipped": {
+    "tarball_sha256": "sha256:c1546aff98145710f9afac1c5c4977d4ff9e5deeb2b81f3114717d7ac4c333ae",
+    "tarball_bytes": 2446001,
+    "file_count": 20,
+    "files": [
+      {
+        "path": "bin/coderifts.js",
+        "sha256": "sha256:1620a34335c189c39eb5b280ad47dca8103b2825d3cf301b53a52027f4ada0cc",
+        "bytes": 36669
+      },
+      {
+        "path": "CHANGELOG.md",
+        "sha256": "sha256:1617a1553ce1132d3e070db3702c4d1f54ab3e5f459d8eab0f00b4e9d0e3800a",
+        "bytes": 87618
+      },
+      {
+        "path": "corpus/vectors-mcp-fpfn.json",
+        "sha256": "sha256:9826f5a4c37013ced3216738f704664a8ca6ffdcef7cadd48dde23a192ab748e",
+        "bytes": 16555
+      },
+      {
+        "path": "corpus/vectors-openapi-fpfn.json",
+        "sha256": "sha256:0ff41f71527622cbd4e09ad81d40889824249417fba010d777612d46ca7b47fe",
+        "bytes": 14365
+      },
+      {
+        "path": "dist/.build-source-sha",
+        "sha256": "sha256:3340e455245e4567190dbe2289b63b9199c806d59c41f6b41465d7e5ddfe8252",
+        "bytes": 432
+      },
+      {
+        "path": "dist/cli.js",
+        "sha256": "sha256:dc0d7e97189bb616d13835fb81380837f7ad82637a5ae51ca4eb87d56495ce1a",
+        "bytes": 10138995
+      },
+      {
+        "path": "dist/openapi-diff-worker.js",
+        "sha256": "sha256:919c8ffb3220bd82dd5e69c88001bc25567005c10b23104d35b1fc37592133b4",
+        "bytes": 2087577
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "sha256:2c2a43271b4a6e8f79abb0324b3c56cfb128b192d205f804e6e0f178fa91ab48",
+        "bytes": 1066
+      },
+      {
+        "path": "package.json",
+        "sha256": "sha256:f8d7f3f3fbc275e4f5fabc44177a2bb54ad031f3d2d263046b2349151766dd5a",
+        "bytes": 2025
+      },
+      {
+        "path": "README.md",
+        "sha256": "sha256:72b16c7802cca378a5418cda52fefb6f16aa398bdded87200f954d14df50e58c",
+        "bytes": 56478
+      },
+      {
+        "path": "scripts/assert-changelog-version.js",
+        "sha256": "sha256:999b21fdaaabde1ac78c1a263d8c85f75b602c323b22a11d1c9a198d3af74b3e",
+        "bytes": 3911
+      },
+      {
+        "path": "scripts/assert-guard-major.js",
+        "sha256": "sha256:19fac15531ddb0de3e65554e81e4ec6b83b1c1c779b21b819eb2e41c8d858d3d",
+        "bytes": 22808
+      },
+      {
+        "path": "scripts/assert-publish-gate.sh",
+        "sha256": "sha256:525d70a6e1e37a9776e86752673feed3b9cef7fe4c644ce96d68ab65b08dae81",
+        "bytes": 2684
+      },
+      {
+        "path": "scripts/build.js",
+        "sha256": "sha256:ff57e7f9e845690b11d03f1b3e23a2d0f606c3ad87a0635e35f2550706a94f8f",
+        "bytes": 3919
+      },
+      {
+        "path": "scripts/check-packed-install.js",
+        "sha256": "sha256:c23fea7f2461cb4c74e67d66b72821dfee73740e4633766331b1f911a9132efb",
+        "bytes": 6599
+      },
+      {
+        "path": "scripts/check-runtime-files.js",
+        "sha256": "sha256:f7672c6764e9002f31489f6ceda0c4d3889597c7917896ce2821c65afd748109",
+        "bytes": 4135
+      },
+      {
+        "path": "scripts/copy-corpus.js",
+        "sha256": "sha256:5c334a9d75347242b5bc29b02b5e9c3aa909388b3f6a7c55fff9a5a8df56731e",
+        "bytes": 1041
+      },
+      {
+        "path": "scripts/lib/runtime-files.js",
+        "sha256": "sha256:a2c22fb29014b3dc08898915821fa16d4a23cea5d6da74e149a55ff17f2ab35a",
+        "bytes": 1716
+      },
+      {
+        "path": "scripts/lib/source-fingerprint.js",
+        "sha256": "sha256:1baf585b7d10ca987b730875cf7d6831f3d2bde950cbdf2be76f338f4113ffd2",
+        "bytes": 2397
+      },
+      {
+        "path": "scripts/postinstall.js",
+        "sha256": "sha256:d1f04f43a7ab2f6e0d0c29b51b1dc462e2cb2322871244db4b21fc9f958ec412",
+        "bytes": 2068
+      }
+    ]
+  }
+}

@@ -1,14 +1,14 @@
 {
   "spec": "coderifts.release-provenance.v1.index",
   "frozen_set": {
-    "name": "release-set-2026-11-12a",
-    "digest": "sha256:e3f452bac008c214215ac3cb5b69e9a5cf38393f52c36833530d59974036be7b"
+    "name": "release-set-2026-11-14a",
+    "digest": "sha256:f1e3597ef3beabe3c4f83bd5dda8de9898633325ad2f5548ee362e7a643c5866"
   },
   "records": [
     {
       "artifact": "cli",
-      "version": "8.9.1",
-      "path": "cli/8.9.1.json",
+      "version": "8.9.2",
+      "path": "cli/8.9.2.json",
       "kind": "npm"
     },
     {
